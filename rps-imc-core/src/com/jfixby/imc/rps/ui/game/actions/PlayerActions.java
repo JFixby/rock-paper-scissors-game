@@ -9,9 +9,9 @@ import com.jfixby.scarabei.api.util.path.RelativePath;
 public class PlayerActions {
 
 	private Layer root;
-	final PlayerActionRock playerActionRock = new PlayerActionRock(this);
-	final PlayerActionScissors playerActionScissors = new PlayerActionScissors(this);
-	final PlayerActionPaper playerActionPaper = new PlayerActionPaper(this);
+	final PlayerActionRock actionRock = new PlayerActionRock(this);
+	final PlayerActionScissors actionScissors = new PlayerActionScissors(this);
+	final PlayerActionPaper actionPaper = new PlayerActionPaper(this);
 
 	public PlayerActions (final GameScreen gameScreen) {
 	}
@@ -21,9 +21,15 @@ public class PlayerActions {
 		this.root = root.findComponent(path);
 		this.root.closeInputValve();
 
-		this.playerActionRock.deploy(this.root);
-		this.playerActionScissors.deploy(this.root);
-		this.playerActionPaper.deploy(this.root);
+		this.actionRock.deploy(this.root);
+		this.actionScissors.deploy(this.root);
+		this.actionPaper.deploy(this.root);
 
+	}
+
+	public void hideAll () {
+		this.actionRock.hide();
+		this.actionScissors.hide();
+		this.actionPaper.hide();
 	}
 }

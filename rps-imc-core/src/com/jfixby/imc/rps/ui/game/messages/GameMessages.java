@@ -28,4 +28,10 @@ public class GameMessages {
 
 	}
 
+	public void hideAll () {
+		this.victoryMessage.hide();
+		this.failMessage.hide();
+		this.drawMessage.hide();
+	}
+
 }

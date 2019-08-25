@@ -7,14 +7,17 @@ import com.jfixby.scarabei.api.util.path.RelativePath;
 
 public class DrawMessage {
 
-	private Layer root;
-
 	public DrawMessage (final GameMessages gameMessages) {
 	}
 
+	private Layer root;
+
 	public void deploy (final Layer root) {
-		final RelativePath path = Utils.newRelativePath().child("victory");
+		final RelativePath path = Utils.newRelativePath().child("draw");
 		this.root = root.findComponent(path);
 	}
 
+	public void hide () {
+		this.root.hide();
+	}
 }

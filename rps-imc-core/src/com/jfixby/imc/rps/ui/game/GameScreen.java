@@ -29,7 +29,12 @@ public class GameScreen {
 		this.playerActions.deploy(this.root);
 		this.computerActions.deploy(this.root);
 		this.playerControls.deploy(this.root);
-// this.hide();
+
+		this.gameMessages.hideAll();
+		this.playerActions.hideAll();
+		this.computerActions.hideAll();
+
+		this.playerControls.hide();
 	}
 
 	public void hide () {

@@ -10,9 +10,9 @@ public class PlayerControls {
 
 	private Layer root;
 
-	final UserControlRock userControlRock = new UserControlRock(this);
-	final UserControlPaper userControlPaper = new UserControlPaper(this);
-	final UserControlScissors userControlScissors = new UserControlScissors(this);
+	final UserControlRock btnRock = new UserControlRock(this);
+	final UserControlPaper btnPaper = new UserControlPaper(this);
+	final UserControlScissors btnScissors = new UserControlScissors(this);
 
 	public PlayerControls (final GameScreen gameScreen) {
 	}
@@ -22,9 +22,13 @@ public class PlayerControls {
 		this.root = root.findComponent(path);
 		this.root.print();
 // Sys.exit();
-		this.userControlRock.deploy(this.root);
-		this.userControlPaper.deploy(this.root);
-		this.userControlScissors.deploy(this.root);
+		this.btnRock.deploy(this.root);
+		this.btnPaper.deploy(this.root);
+		this.btnScissors.deploy(this.root);
+	}
+
+	public void hide () {
+		this.root.hide();
 	}
 
 }

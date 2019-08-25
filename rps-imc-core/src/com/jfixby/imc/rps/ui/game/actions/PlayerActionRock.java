@@ -18,4 +18,9 @@ public class PlayerActionRock {
 		this.animation = root.findComponent(path);
 	}
 
+	public void hide () {
+		this.animation.stopAnimation();
+		this.animation.hide();
+	}
+
 }

@@ -17,4 +17,8 @@ public class VictoryMessage {
 		this.root = root.findComponent(path);
 	}
 
+	public void hide () {
+		this.root.hide();
+	}
+
 }
