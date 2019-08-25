@@ -5,10 +5,8 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.FokkerLwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.FokkerLwjglApplicationConfiguration;
 import com.badlogic.gdx.graphics.Texture.TextureFilter;
-import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.spawn.ActivitySpawner;
 import com.jfixby.r3.activity.red.RedActivityExecutor;
-import com.jfixby.r3.activity.red.act.RedUIManager;
 import com.jfixby.r3.activity.red.raster.TiledRasterReader;
 import com.jfixby.r3.activity.red.spawn.RedActivitySpawner;
 import com.jfixby.r3.engine.api.RedTriplane;
@@ -175,9 +173,7 @@ public class RunRPSDesktop {
 		RenderMachine.installComponent(new FokkerRenderMachine());
 		SoundMachine.installComponent(new FokkerSoundMachine());
 
-		UIEventsManager.installComponent(new RedUIManager());
-
-		final ID starter = Names.newID("com.jfixby.imc.rps.ui.game.RPSUnit");
+		final ID starter = Names.newID("com.jfixby.imc.rps.ui.game.Starter");
 
 		RedTriplane.setGameStarter(starter);
 

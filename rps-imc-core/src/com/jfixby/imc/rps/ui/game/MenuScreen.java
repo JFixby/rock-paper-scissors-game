@@ -42,7 +42,7 @@ public class MenuScreen {
 			button.setOnClickListener(this.impossibleButtonListener);
 			this.impossibleButton = button;
 		}
-
+// this.hide();
 	}
 
 	private void goEasy () {
