@@ -8,15 +8,15 @@ public class PlayActionResult {
 	public SPELL_RESULT result;
 
 	public boolean isPlayerVictory () {
-		return false;
+		return this.result == SPELL_RESULT.BEATS;
 	}
 
 	public boolean isComputerVictory () {
-		return false;
+		return this.result == SPELL_RESULT.FAILS;
 	}
 
 	public boolean isDraw () {
-		return false;
+		return this.result == SPELL_RESULT.DRAW;
 	}
 
 }

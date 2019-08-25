@@ -99,12 +99,15 @@ public class GameScreen {
 
 		if (result.isPlayerVictory()) {
 			this.gameMessages.sayVictory();
+			return;
 		}
 		if (result.isComputerVictory()) {
 			this.gameMessages.sayFail();
+			return;
 		}
 		if (result.isDraw()) {
 			this.gameMessages.sayDraw();
+			return;
 		}
 		Err.reportError("Incorrect state!");
 		this.gameMessages.sayFight();

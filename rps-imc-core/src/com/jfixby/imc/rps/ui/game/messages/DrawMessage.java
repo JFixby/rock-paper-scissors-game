@@ -14,12 +14,16 @@ public class DrawMessage {
 
 	private Layer root;
 	private LayersAnimation animation;
+	private final Sounds sounds = new Sounds();
 
 	public void deploy (final Layer root) {
 		final RelativePath path = Utils.newRelativePath().child("draw");
 		this.root = root.findComponent(path);
 		this.animation = this.root.findComponent("animation");
 		this.animation.stopAnimation();
+
+		final Layer soundsLayer = this.root.findComponent("sounds");
+		this.sounds.deploy(soundsLayer);
 	}
 
 	public void hide () {
@@ -30,6 +34,7 @@ public class DrawMessage {
 	public Animation show () {
 		this.root.show();
 		this.animation.startAnimation();
+		this.sounds.playRandomEvent();
 		return this.animation;
 	}
 }

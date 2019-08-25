@@ -11,6 +11,7 @@ public class VictoryMessage {
 
 	private Layer root;
 	private LayersAnimation animation;
+	private final Sounds sounds = new Sounds();
 
 	public VictoryMessage (final GameMessages gameMessages) {
 	}
@@ -20,6 +21,9 @@ public class VictoryMessage {
 		this.root = root.findComponent(path);
 		this.animation = this.root.findComponent("animation");
 		this.animation.stopAnimation();
+
+		final Layer soundsLayer = this.root.findComponent("sounds");
+		this.sounds.deploy(soundsLayer);
 	}
 
 	public void hide () {
@@ -30,6 +34,7 @@ public class VictoryMessage {
 	public Animation show () {
 		this.root.show();
 		this.animation.startAnimation();
+		this.sounds.playRandomEvent();
 		return this.animation;
 	}
 }
