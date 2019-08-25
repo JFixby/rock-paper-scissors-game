@@ -20,7 +20,7 @@ public class MenuScreen {
 	}
 
 	public void deploy (final Layer root) {
-		root.print();
+// root.print();
 		final RelativePath relativeMenu = Utils.newRelativePath().child("rps").child("menu");
 		this.root = root.findComponent(relativeMenu);
 

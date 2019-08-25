@@ -1,6 +1,10 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.ui.game.actions.ComputerActions;
+import com.jfixby.imc.rps.ui.game.actions.PlayerActions;
+import com.jfixby.imc.rps.ui.game.controls.PlayerControls;
+import com.jfixby.imc.rps.ui.game.messages.GameMessages;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -9,6 +13,11 @@ public class GameScreen {
 	private Layer root;
 	private final RPSUnit master;
 
+	final GameMessages gameMessages = new GameMessages(this);
+	final PlayerActions playerActions = new PlayerActions(this);
+	final ComputerActions computerActions = new ComputerActions(this);
+	final PlayerControls playerControls = new PlayerControls(this);
+
 	public GameScreen (final RPSUnit rpsUnit) {
 		this.master = rpsUnit;
 	}
@@ -16,7 +25,10 @@ public class GameScreen {
 	public void deploy (final Layer root) {
 		final RelativePath relativeGame = Utils.newRelativePath().child("rps").child("game");
 		this.root = root.findComponent(relativeGame);
-		this.root.print();
+		this.gameMessages.deploy(this.root);
+		this.playerActions.deploy(this.root);
+		this.computerActions.deploy(this.root);
+		this.playerControls.deploy(this.root);
 	}
 
 	public void hide () {

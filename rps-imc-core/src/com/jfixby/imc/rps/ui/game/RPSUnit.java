@@ -18,8 +18,8 @@ public class RPSUnit implements Activity {
 	private RootLayer root;
 	private ComponentsFactory components_factory;
 
-	MenuScreen menuScreen = new MenuScreen(this);
-	GameScreen gameScreen = new GameScreen(this);
+	final MenuScreen menuScreen = new MenuScreen(this);
+	final GameScreen gameScreen = new GameScreen(this);
 	private Layer scenelayer;
 
 	@Override
@@ -41,8 +41,6 @@ public class RPSUnit implements Activity {
 // final ID assetID = FOKKER_SYSTEM_ASSETS.SOUND_TEST_MP3;
 // final ID soundid = Names.newID("com.jfixby.fokker.assets.sound.test.mp3");
 // final SoundEvent event = this.components_factory.getSoundFactory().newSoundEvent(soundid);
-
-		this.scenelayer.print();
 
 // final RelativePath relativeMenu = Utils.newRelativePath().child("rps").child("menu");
 // this.root = this.root.findComponent(relativeMenu);
