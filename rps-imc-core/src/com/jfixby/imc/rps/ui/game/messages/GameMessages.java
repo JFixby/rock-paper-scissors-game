@@ -42,4 +42,16 @@ public class GameMessages {
 		return this.fightMessage.show();
 	}
 
+	public void sayVictory () {
+		this.victoryMessage.show();
+	}
+
+	public void sayFail () {
+		this.failMessage.show();
+	}
+
+	public void sayDraw () {
+		this.drawMessage.show();
+	}
+
 }

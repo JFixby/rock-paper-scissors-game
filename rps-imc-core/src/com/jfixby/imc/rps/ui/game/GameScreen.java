@@ -12,6 +12,7 @@ import com.jfixby.imc.rps.ui.game.messages.GameMessages;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.layer.Layer;
+import com.jfixby.scarabei.api.err.Err;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
 
@@ -89,6 +90,24 @@ public class GameScreen {
 	public Animation showComputerResponse (final PlayActionResult response) {
 		this.playerActions.hideAll();
 		return this.computerActions.playSpell(response.computerReponse);
+	}
+
+	public void showRoundResult (final PlayActionResult result) {
+		this.computerActions.hideAll();
+		this.playerActions.hideAll();
+		this.gameMessages.hideAll();
+
+		if (result.isPlayerVictory()) {
+			this.gameMessages.sayVictory();
+		}
+		if (result.isComputerVictory()) {
+			this.gameMessages.sayFail();
+		}
+		if (result.isDraw()) {
+			this.gameMessages.sayDraw();
+		}
+		Err.reportError("Incorrect state!");
+		this.gameMessages.sayFight();
 	}
 
 }

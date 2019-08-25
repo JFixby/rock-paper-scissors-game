@@ -167,7 +167,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 					Sys.exit();
 				}
 				if (RPSUnit.this.state.currentState() == UI_STATE.GAME) {
-					RPSUnit.this.goMenu();
+					UIEventsManager.pushAction(UIActions.goMenu());
 				}
 			}
 			return super.onKeyDown(event);
@@ -181,6 +181,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
 	public void showUserControls () {
 		this.gameScreen.hideMessages();
+		this.gameScreen.computerActions.hideAll();
 		this.gameScreen.showUserControls();
 	}
 
@@ -194,6 +195,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 	}
 
 	public void ShowRoundResult (final PlayActionResult result) {
+		this.gameScreen.showRoundResult(result);
 	}
 
 }

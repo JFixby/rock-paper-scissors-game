@@ -44,11 +44,13 @@ public class PlayerControls {
 	public void processSpell (final SPELL spell) {
 		UIEventsManager.pushAction(UIActions.SpellAction(spell));
 		final PlayActionResult result = RPSEngine.engine.userPlays(spell);
-		UIEventsManager.pushAction(UIActions.ShowComputerResponse(result));
-		UIEventsManager.pushAction(UIActions.ShowRoundResultMessage(result));
-		final long wait = 2000;
+		final long wait = 1000;
 		UIEventsManager.pushWait(wait);
-
+		UIEventsManager.pushAction(UIActions.ShowComputerResponse(result));
+		UIEventsManager.pushWait(wait);
+		UIEventsManager.pushAction(UIActions.ShowRoundResultMessage(result));
+		UIEventsManager.pushWait(wait);
+		UIEventsManager.pushAction(UIActions.ShowControls());
 	}
 
 }

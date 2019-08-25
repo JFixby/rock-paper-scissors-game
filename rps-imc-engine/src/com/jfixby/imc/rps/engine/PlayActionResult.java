@@ -7,4 +7,16 @@ public class PlayActionResult {
 	public SPELL playerSpell;
 	public SPELL_RESULT result;
 
+	public boolean isPlayerVictory () {
+		return false;
+	}
+
+	public boolean isComputerVictory () {
+		return false;
+	}
+
+	public boolean isDraw () {
+		return false;
+	}
+
 }
