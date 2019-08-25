@@ -4,34 +4,43 @@ package com.jfixby.imc.rps.ui.game;
 import com.jfixby.r3.activity.api.Activity;
 import com.jfixby.r3.activity.api.ActivityManager;
 import com.jfixby.r3.activity.api.ComponentsFactory;
-import com.jfixby.r3.activity.api.RootLayer;
 import com.jfixby.r3.activity.api.act.ShadowStateListener;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.camera.Shadow;
 import com.jfixby.r3.activity.api.camera.ShadowSpecs;
 import com.jfixby.r3.activity.api.input.InputManager;
+import com.jfixby.r3.activity.api.input.KeyDownEvent;
 import com.jfixby.r3.activity.api.layer.Layer;
+import com.jfixby.r3.activity.api.user.KeyboardInputEventListener;
 import com.jfixby.r3.scene2d.api.Scene;
 import com.jfixby.r3.scene2d.api.Scene2D;
 import com.jfixby.r3.scene2d.api.Scene2DSpawningConfig;
-import com.jfixby.scarabei.api.err.Err;
+import com.jfixby.scarabei.api.debug.Debug;
+import com.jfixby.scarabei.api.debug.StateSwitcher;
+import com.jfixby.scarabei.api.input.Key;
+import com.jfixby.scarabei.api.input.UserInput;
 import com.jfixby.scarabei.api.log.L;
 import com.jfixby.scarabei.api.names.ID;
 import com.jfixby.scarabei.api.names.Names;
+import com.jfixby.scarabei.api.sys.Sys;
 
 public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
-	private RootLayer root;
 	private ComponentsFactory components_factory;
 
 	final MenuScreen menuScreen = new MenuScreen(this);
 	final GameScreen gameScreen = new GameScreen(this);
 	private Layer scenelayer;
+	private StateSwitcher<GAME_STATE> state;
+
+	private Layer root;
 
 	@Override
 	public void onCreate (final ActivityManager unitManager) {
 		this.root = unitManager.getRootLayer();
 		this.components_factory = this.root.getComponentsFactory();
+
+		final Layer content = this.components_factory.newLayer();
 		{
 			this.root.closeInputValve();
 			final ShadowSpecs shadow_specs = this.components_factory.getCameraDepartment().newShadowSpecs();
@@ -40,6 +49,17 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 			this.shadow.setValue(Shadow.ABSOLUTE_CLEAR);
 		}
 
+		this.state = Debug.newStateSwitcher(GAME_STATE.NEW);
+
+		this.createContent(content);
+
+		this.root.attachComponent(content);
+		this.root.attachComponent(this.shadow);
+		this.showMenu();
+
+	}
+
+	private void createContent (final Layer content) {
 		final Scene2DSpawningConfig config = new Scene2DSpawningConfig();
 		final ID scene_id = Names.newID("com.jfixby.imc.rps.ui.game.ui.psd");
 // final ID scene_id = Names.newID("com.jfixby.imc.rps.ui.game.input.test.psd");
@@ -49,43 +69,40 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		scene.startAllAnimations();
 		this.scenelayer = scene.getRoot();
 
-		this.root.attachComponent(this.scenelayer);
-
-// final ID assetID = FOKKER_SYSTEM_ASSETS.SOUND_TEST_MP3;
-// final ID soundid = Names.newID("com.jfixby.fokker.assets.sound.test.mp3");
-// final SoundEvent event = this.components_factory.getSoundFactory().newSoundEvent(soundid);
-
-// final RelativePath relativeMenu = Utils.newRelativePath().child("rps").child("menu");
-// this.root = this.root.findComponent(relativeMenu);
+		content.attachComponent(this.scenelayer);
 
 		this.menuScreen.deploy(this.scenelayer);
 		this.gameScreen.deploy(this.scenelayer);
-		this.showMenu();
 
-		this.root.attachComponent(this.shadow);
-
+		content.attachComponent(this.keyboardListener);
 	}
 
-	public void goMenu () {
-		Err.throwNotImplementedYet();
+	private void goMenu () {
+		UIEventsManager.pushFadeOut(this.shadowTime);
+		UIEventsManager.pushAction(UIActions.goMenu());
+		UIEventsManager.pushFadeIn(this.shadowTime);
 	}
 
 	public void showMenu () {
 		this.gameScreen.hide();
 		this.menuScreen.show();
+		this.state.switchState(GAME_STATE.MENU);
 	}
 
 	public void showGame () {
 		this.gameScreen.show();
 		this.menuScreen.hide();
+		this.state.switchState(GAME_STATE.GAME);
 	}
 
 	public void goGame (final GAME_DIFFICULTY diff) {
-		UIEventsManager.pushFadeOut(500);
+		UIEventsManager.pushFadeOut(this.shadowTime);
 		UIEventsManager.pushAction(UIActions.goGame(diff));
-		UIEventsManager.pushFadeIn(500);
+		UIEventsManager.pushFadeIn(this.shadowTime);
 		L.d("goGame", diff);
 	}
+
+	long shadowTime = 500L;
 
 	@Override
 	public void onStart () {
@@ -129,5 +146,23 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		L.d("updateShadow", value_current);
 		this.shadow.setValue(value_current);
 	}
+
+	private final KeyboardInputEventListener keyboardListener = new KeyboardInputEventListener() {
+
+		@Override
+		public boolean onKeyDown (final KeyDownEvent event) {
+			final Key key = event.getKey();
+			if (key.is(UserInput.Keyboard().ESCAPE())) {
+				if (RPSUnit.this.state.currentState() == GAME_STATE.MENU) {
+					Sys.exit();
+				}
+				if (RPSUnit.this.state.currentState() == GAME_STATE.GAME) {
+					RPSUnit.this.goMenu();
+				}
+			}
+			return super.onKeyDown(event);
+		}
+
+	};
 
 }

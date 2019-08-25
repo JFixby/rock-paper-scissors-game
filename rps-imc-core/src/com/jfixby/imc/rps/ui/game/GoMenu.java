@@ -7,7 +7,7 @@ public class GoMenu implements UIAction<RPSUnit> {
 
 	@Override
 	public void start (final RPSUnit ui) {
-		ui.goMenu();
+		ui.showMenu();
 	}
 
 	@Override
