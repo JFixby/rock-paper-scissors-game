@@ -19,4 +19,10 @@ public class PlayActionResult {
 		return this.result == SPELL_RESULT.DRAW;
 	}
 
+	@Override
+	public String toString () {
+		return "PlayActionResult [playerSpell=" + this.playerSpell + ", computerReponse=" + this.computerReponse + ", result="
+			+ this.result + "]";
+	}
+
 }

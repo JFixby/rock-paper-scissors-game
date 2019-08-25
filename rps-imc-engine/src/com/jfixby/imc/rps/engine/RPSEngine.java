@@ -36,33 +36,37 @@ public class RPSEngine {
 		result.computerReponse = playerSpell.weakTo();
 		result.playerSpell = playerSpell;
 		result.result = SPELL.compare(playerSpell, result.computerReponse);
+// L.d("impossibleHardResponse", result);
 		return result;
 	}
 
 	private PlayActionResult hardResponse (final SPELL playerSpell) {
 		final PlayActionResult result = new PlayActionResult();
 		final boolean win = Random.newCoin();
+// L.d("hardResponse", win);
 		if (win) {
-			result.computerReponse = playerSpell.weakTo();
-		} else {
 			result.computerReponse = playerSpell.strongTo();
+		} else {
+			result.computerReponse = playerSpell.weakTo();
 		}
 		result.playerSpell = playerSpell;
 		result.result = SPELL.compare(playerSpell, result.computerReponse);
+// L.d(" ", result);
 		return result;
 	}
 
 	private PlayActionResult easyResponse (final SPELL playerSpell) {
 		final PlayActionResult result = new PlayActionResult();
 		final double rand = Random.newDouble(0d, 3d);
+// L.d("easyResponse", rand);
 		if (rand >= 1d) {
-			result.computerReponse = playerSpell.weakTo();
-		} else {
 			result.computerReponse = playerSpell.strongTo();
+		} else {
+			result.computerReponse = playerSpell.weakTo();
 		}
-		result.computerReponse = playerSpell.weakTo();
 		result.playerSpell = playerSpell;
 		result.result = SPELL.compare(playerSpell, result.computerReponse);
+// L.d(" ", result);
 		return result;
 	}
 
