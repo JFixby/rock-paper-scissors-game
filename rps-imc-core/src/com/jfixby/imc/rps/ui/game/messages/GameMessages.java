@@ -2,6 +2,7 @@
 package com.jfixby.imc.rps.ui.game.messages;
 
 import com.jfixby.imc.rps.ui.game.GameScreen;
+import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -37,8 +38,8 @@ public class GameMessages {
 		this.fightMessage.hide();
 	}
 
-	public void sayFight () {
-		this.fightMessage.show();
+	public Animation sayFight () {
+		return this.fightMessage.show();
 	}
 
 }

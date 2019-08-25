@@ -1,11 +1,13 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.imc.rps.ui.game.actions.ComputerActions;
 import com.jfixby.imc.rps.ui.game.actions.PlayerActions;
 import com.jfixby.imc.rps.ui.game.controls.PlayerControls;
 import com.jfixby.imc.rps.ui.game.messages.GameMessages;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
+import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -58,8 +60,8 @@ public class GameScreen {
 		UIEventsManager.pushAction(UIActions.ShowControls());
 	}
 
-	public void brifPlayer (final GAME_DIFFICULTY diff) {
-		this.gameMessages.sayFight();
+	public Animation brifPlayer (final GAME_DIFFICULTY diff) {
+		return this.gameMessages.sayFight();
 	}
 
 	public void showUserControls () {
@@ -69,6 +71,14 @@ public class GameScreen {
 
 	public void hideMessages () {
 		this.gameMessages.hideAll();
+	}
+
+	public void hideUserControls () {
+		this.playerControls.hide();
+	}
+
+	public Animation playSpellAnimation (final SPELL spell) {
+		return this.playerActions.playSpell(spell);
 	}
 
 }

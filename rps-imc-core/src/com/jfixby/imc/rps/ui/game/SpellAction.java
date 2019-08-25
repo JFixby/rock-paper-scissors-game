@@ -1,21 +1,22 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.r3.activity.api.act.UIAction;
 import com.jfixby.r3.activity.api.animation.Animation;
 
-public class PlayFightIntro implements UIAction<RPSUnit> {
+public class SpellAction implements UIAction<RPSUnit> {
 
-	private final GAME_DIFFICULTY diff;
+	private final SPELL spell;
 	private Animation anim;
 
-	public PlayFightIntro (final GAME_DIFFICULTY diff) {
-		this.diff = diff;
+	public SpellAction (final SPELL spell) {
+		this.spell = spell;
 	}
 
 	@Override
 	public void start (final RPSUnit ui) {
-		this.anim = ui.brifPlayer(this, this.diff);
+		this.anim = ui.playerSpellsAction(this.spell);
 	}
 
 	@Override

@@ -1,6 +1,8 @@
 
 package com.jfixby.imc.rps.engine;
 
+import com.jfixby.scarabei.api.err.Err;
+
 public enum SPELL {
 
 	ROCK(consts.rock, consts.paper, consts.scissors), //
@@ -18,14 +20,18 @@ public enum SPELL {
 
 	}
 
-	public static int compare (final SPELL one, final SPELL other) {
+	public static SPELL_RESULT compare (final SPELL one, final SPELL other) {
 		if (one == other) {
-			return 0;
+			return SPELL_RESULT.DRAW;
 		}
 		if (one.weakTo.equals(other.name)) {
-			return -1;
+			return SPELL_RESULT.FAILS;
 		}
-		return +1;
+		if (one.strongTo.equals(other.name)) {
+			return SPELL_RESULT.BEATS;
+		}
+		Err.reportError("Time paradox detected.");
+		return null;
 	}
 
 }

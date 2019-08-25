@@ -1,6 +1,7 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.r3.activity.api.act.UIAction;
 
 public class UIActions {
@@ -19,6 +20,10 @@ public class UIActions {
 
 	public static UIAction<RPSUnit> ShowControls () {
 		return new ShowControls();
+	}
+
+	public static UIAction<RPSUnit> SpellAction (final SPELL spell) {
+		return new SpellAction(spell);
 	}
 
 }

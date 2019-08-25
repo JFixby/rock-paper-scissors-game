@@ -1,11 +1,13 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.r3.activity.api.Activity;
 import com.jfixby.r3.activity.api.ActivityManager;
 import com.jfixby.r3.activity.api.ComponentsFactory;
 import com.jfixby.r3.activity.api.act.ShadowStateListener;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
+import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.camera.Shadow;
 import com.jfixby.r3.activity.api.camera.ShadowSpecs;
 import com.jfixby.r3.activity.api.input.InputManager;
@@ -170,13 +172,18 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
 	};
 
-	public void brifPlayer (final PlayFightIntro playFightIntro, final GAME_DIFFICULTY diff) {
-		this.gameScreen.brifPlayer(diff);
+	public Animation brifPlayer (final PlayFightIntro playFightIntro, final GAME_DIFFICULTY diff) {
+		return this.gameScreen.brifPlayer(diff);
 	}
 
 	public void showUserControls () {
 		this.gameScreen.hideMessages();
 		this.gameScreen.showUserControls();
+	}
+
+	public Animation playerSpellsAction (final SPELL spell) {
+		this.gameScreen.hideUserControls();
+		return this.gameScreen.playSpellAnimation(spell);
 	}
 
 }

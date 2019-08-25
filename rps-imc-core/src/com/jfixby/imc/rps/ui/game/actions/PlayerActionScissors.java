@@ -1,6 +1,7 @@
 
 package com.jfixby.imc.rps.ui.game.actions;
 
+import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.animation.LayersAnimation;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
@@ -21,6 +22,12 @@ public class PlayerActionScissors {
 	public void hide () {
 		this.animation.stopAnimation();
 		this.animation.hide();
+	}
+
+	public Animation play () {
+		this.animation.show();
+		this.animation.startAnimation();
+		return this.animation;
 	}
 
 }

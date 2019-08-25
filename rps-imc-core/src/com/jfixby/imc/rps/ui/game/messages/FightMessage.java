@@ -1,6 +1,7 @@
 
 package com.jfixby.imc.rps.ui.game.messages;
 
+import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.animation.LayersAnimation;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
@@ -26,8 +27,9 @@ public class FightMessage {
 		this.animation.stopAnimation();
 	}
 
-	public void show () {
+	public Animation show () {
 		this.root.show();
 		this.animation.startAnimation();
+		return this.animation;
 	}
 }

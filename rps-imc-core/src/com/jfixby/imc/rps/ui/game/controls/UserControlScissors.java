@@ -1,6 +1,9 @@
 
 package com.jfixby.imc.rps.ui.game.controls;
 
+import com.jfixby.imc.rps.engine.SPELL;
+import com.jfixby.imc.rps.ui.game.UIActions;
+import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.input.Button;
 import com.jfixby.r3.activity.api.input.OnClickListener;
 import com.jfixby.r3.activity.api.layer.Layer;
@@ -22,6 +25,7 @@ public class UserControlScissors implements OnClickListener {
 
 	@Override
 	public void onClick () {
+		UIEventsManager.pushAction(UIActions.SpellAction(SPELL.SCISSORS));
 	}
 
 }
