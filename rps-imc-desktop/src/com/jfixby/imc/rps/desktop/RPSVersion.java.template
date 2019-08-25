@@ -1,0 +1,10 @@
+
+package com.jfixby.tinto.run.desktop;
+
+public class TintoVersion {
+
+	public static final String versionName = #VERSION_NAME#;
+	public static final int versionCode = #VERSION_CODE#;
+	public static final String packageName = #PACKAGE_NAME#;
+
+}

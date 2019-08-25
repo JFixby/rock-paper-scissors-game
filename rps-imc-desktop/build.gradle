@@ -1,0 +1,30 @@
+
+sourceCompatibility = 1.8
+
+dependencies {
+    
+    compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+	compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+	compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+	compile "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+	compile "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+	
+	
+	//compile "com.github.Scarabei.Scarabei:scarabei-gson:$scarabeiVersion"
+	////compile "com.github.Scarabei.Scarabei:scarabei-red:$scarabeiVersion"
+	//compile "com.github.Scarabei.Scarabei:scarabei-red-desktop:$scarabeiVersion"
+	
+	//compile "com.github.RedTriplane.Rana:rana-package-red:$ranaVersion"
+	//compile "com.github.RedTriplane.Rana:rana-asset-red:$ranaVersion"
+	//compile "com.github.RedTriplane.Rana:rana-manager-red:$ranaVersion"
+	//compile "com.github.RedTriplane.Rana:rana-loader-red:$ranaVersion"
+	
+	//compile "com.github.RedTriplane.Fokker:fokker-core:$fokkerVersion"
+	//compile "com.github.RedTriplane.Fokker:fokker-desktop:$fokkerVersion"
+	//compile "com.github.RedTriplane.Fokker:fokker-render-red:$fokkerVersion"
+	
+	//compile "com.github.RedTriplane.RedTriplane:red-triplane-scene2d-red:$r3Version"
+	//compile "com.github.RedTriplane.RedTriplane:red-triplane-uiact-red:$r3Version"
+	
+	//compile "com.github.RedTriplane.RedStrings:strings-red:$strVersion" 
+}

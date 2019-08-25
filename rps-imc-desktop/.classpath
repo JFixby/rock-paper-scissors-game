@@ -3,5 +3,42 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-api-desktop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-red-desktop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-activity-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-activity-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-engine-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-desktop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-engine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-font-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-font-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-raster-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-raster-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-raster-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-render-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-render-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-shader-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-shader-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-shader-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-rana-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-rana-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-rana-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-render-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-scene2d-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-scene2d-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-scene2d-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-text-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-text-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-texture-slicer-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/rps-imc-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/rps-imc-engine"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-sound-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-fokker-sound-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-sound-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-sound-io"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
