@@ -1,5 +1,5 @@
 
-package com.jfixby.imc.rps.ui.game;
+package com.jfixby.imc.rps.engine;
 
 public enum GAME_DIFFICULTY {
 	EASY, HARD, IMPOSSIBLE;

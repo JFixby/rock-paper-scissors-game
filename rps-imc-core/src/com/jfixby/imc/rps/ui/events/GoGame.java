@@ -1,6 +1,8 @@
 
-package com.jfixby.imc.rps.ui.game;
+package com.jfixby.imc.rps.ui.events;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
+import com.jfixby.imc.rps.ui.game.RPSUnit;
 import com.jfixby.r3.activity.api.act.UIAction;
 
 public class GoGame implements UIAction<RPSUnit> {

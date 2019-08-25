@@ -1,6 +1,8 @@
 
-package com.jfixby.imc.rps.ui.game;
+package com.jfixby.imc.rps.ui.events;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
+import com.jfixby.imc.rps.ui.game.RPSUnit;
 import com.jfixby.r3.activity.api.act.UIAction;
 import com.jfixby.r3.activity.api.animation.Animation;
 
@@ -24,7 +26,7 @@ public class PlayFightIntro implements UIAction<RPSUnit> {
 
 	@Override
 	public boolean isDone (final RPSUnit ui) {
-		return this.anim.loopsComplete() > 0;
+		return this.anim.loopsComplete() >= 1f;
 	}
 
 }

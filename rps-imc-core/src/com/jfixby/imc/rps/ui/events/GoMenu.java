@@ -1,13 +1,14 @@
 
-package com.jfixby.imc.rps.ui.game;
+package com.jfixby.imc.rps.ui.events;
 
+import com.jfixby.imc.rps.ui.game.RPSUnit;
 import com.jfixby.r3.activity.api.act.UIAction;
 
-public class ShowControls implements UIAction<RPSUnit> {
+public class GoMenu implements UIAction<RPSUnit> {
 
 	@Override
 	public void start (final RPSUnit ui) {
-		ui.showUserControls();
+		ui.showMenu();
 	}
 
 	@Override

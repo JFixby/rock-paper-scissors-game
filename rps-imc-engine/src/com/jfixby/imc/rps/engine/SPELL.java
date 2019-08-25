@@ -34,6 +34,28 @@ public enum SPELL {
 		return null;
 	}
 
+	public SPELL weakTo () {
+		return this.spellByName(this.weakTo);
+	}
+
+	public SPELL spellByName (final String name) {
+		if (ROCK.name.equals(name)) {
+			return ROCK;
+		}
+		if (PAPER.name.equals(name)) {
+			return PAPER;
+		}
+		if (SCISSORS.name.equals(name)) {
+			return SCISSORS;
+		}
+		Err.reportError("invalid input: " + name);
+		return null;
+	}
+
+	public SPELL strongTo () {
+		return this.spellByName(this.strongTo);
+	}
+
 }
 
 class consts {

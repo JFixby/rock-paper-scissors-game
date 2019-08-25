@@ -1,7 +1,8 @@
 
-package com.jfixby.imc.rps.ui.game;
+package com.jfixby.imc.rps.ui.events;
 
 import com.jfixby.imc.rps.engine.SPELL;
+import com.jfixby.imc.rps.ui.game.RPSUnit;
 import com.jfixby.r3.activity.api.act.UIAction;
 import com.jfixby.r3.activity.api.animation.Animation;
 
@@ -25,7 +26,7 @@ public class SpellAction implements UIAction<RPSUnit> {
 
 	@Override
 	public boolean isDone (final RPSUnit ui) {
-		return this.anim.loopsComplete() > 0;
+		return this.anim.loopsComplete() >= 1f;
 	}
 
 }

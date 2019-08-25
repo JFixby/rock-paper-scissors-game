@@ -22,4 +22,10 @@ public class ComputerActionScissors {
 		this.animation.stopAnimation();
 		this.animation.hide();
 	}
+
+	public LayersAnimation play () {
+		this.animation.show();
+		this.animation.startAnimation();
+		return this.animation;
+	}
 }

@@ -2,8 +2,6 @@
 package com.jfixby.imc.rps.ui.game.controls;
 
 import com.jfixby.imc.rps.engine.SPELL;
-import com.jfixby.imc.rps.ui.game.UIActions;
-import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.input.Button;
 import com.jfixby.r3.activity.api.input.OnClickListener;
 import com.jfixby.r3.activity.api.layer.Layer;
@@ -12,7 +10,10 @@ import com.jfixby.scarabei.api.util.path.RelativePath;
 
 public class UserControlRock implements OnClickListener {
 
+	private final PlayerControls master;
+
 	public UserControlRock (final PlayerControls playerControls) {
+		this.master = playerControls;
 	}
 
 	private Button button;
@@ -25,7 +26,7 @@ public class UserControlRock implements OnClickListener {
 
 	@Override
 	public void onClick () {
-		UIEventsManager.pushAction(UIActions.SpellAction(SPELL.ROCK));
+		this.master.processSpell(SPELL.ROCK);
 	}
 
 }

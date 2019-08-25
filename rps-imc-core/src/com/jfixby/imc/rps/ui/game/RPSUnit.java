@@ -1,7 +1,10 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
+import com.jfixby.imc.rps.engine.PlayActionResult;
 import com.jfixby.imc.rps.engine.SPELL;
+import com.jfixby.imc.rps.ui.events.PlayFightIntro;
 import com.jfixby.r3.activity.api.Activity;
 import com.jfixby.r3.activity.api.ActivityManager;
 import com.jfixby.r3.activity.api.ComponentsFactory;
@@ -33,7 +36,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 	final MenuScreen menuScreen = new MenuScreen(this);
 	final GameScreen gameScreen = new GameScreen(this);
 	private Layer scenelayer;
-	private StateSwitcher<GAME_STATE> state;
+	private StateSwitcher<UI_STATE> state;
 
 	private Layer root;
 
@@ -51,7 +54,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 			this.shadow.setValue(Shadow.ABSOLUTE_CLEAR);
 		}
 
-		this.state = Debug.newStateSwitcher(GAME_STATE.NEW);
+		this.state = Debug.newStateSwitcher(UI_STATE.NEW);
 
 		this.createContent(content);
 
@@ -90,7 +93,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		this.gameScreen.reset();
 		this.menuScreen.show();
 		this.menuScreen.reset();
-		this.state.switchState(GAME_STATE.MENU);
+		this.state.switchState(UI_STATE.MENU);
 	}
 
 	public void showGame (final GAME_DIFFICULTY diff) {
@@ -98,7 +101,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		this.menuScreen.reset();
 		this.gameScreen.show();
 		this.menuScreen.hide();
-		this.state.switchState(GAME_STATE.GAME);
+		this.state.switchState(UI_STATE.GAME);
 		this.gameScreen.onStartGame(diff);
 	}
 
@@ -160,10 +163,10 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		public boolean onKeyDown (final KeyDownEvent event) {
 			final Key key = event.getKey();
 			if (key.is(UserInput.Keyboard().ESCAPE())) {
-				if (RPSUnit.this.state.currentState() == GAME_STATE.MENU) {
+				if (RPSUnit.this.state.currentState() == UI_STATE.MENU) {
 					Sys.exit();
 				}
-				if (RPSUnit.this.state.currentState() == GAME_STATE.GAME) {
+				if (RPSUnit.this.state.currentState() == UI_STATE.GAME) {
 					RPSUnit.this.goMenu();
 				}
 			}
@@ -184,6 +187,13 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 	public Animation playerSpellsAction (final SPELL spell) {
 		this.gameScreen.hideUserControls();
 		return this.gameScreen.playSpellAnimation(spell);
+	}
+
+	public Animation showComputerResponse (final PlayActionResult response) {
+		return this.gameScreen.showComputerResponse(response);
+	}
+
+	public void ShowRoundResult (final PlayActionResult result) {
 	}
 
 }

@@ -1,7 +1,12 @@
 
 package com.jfixby.imc.rps.ui.game.controls;
 
+import com.jfixby.imc.rps.engine.PlayActionResult;
+import com.jfixby.imc.rps.engine.RPSEngine;
+import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.imc.rps.ui.game.GameScreen;
+import com.jfixby.imc.rps.ui.game.UIActions;
+import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -15,6 +20,7 @@ public class PlayerControls {
 	final UserControlScissors btnScissors = new UserControlScissors(this);
 
 	public PlayerControls (final GameScreen gameScreen) {
+
 	}
 
 	public void deploy (final Layer root) {
@@ -33,6 +39,16 @@ public class PlayerControls {
 
 	public void show () {
 		this.root.show();
+	}
+
+	public void processSpell (final SPELL spell) {
+		UIEventsManager.pushAction(UIActions.SpellAction(spell));
+		final PlayActionResult result = RPSEngine.engine.userPlays(spell);
+		UIEventsManager.pushAction(UIActions.ShowComputerResponse(result));
+		UIEventsManager.pushAction(UIActions.ShowRoundResultMessage(result));
+		final long wait = 2000;
+		UIEventsManager.pushWait(wait);
+
 	}
 
 }

@@ -1,6 +1,7 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
 import com.jfixby.r3.activity.api.input.Button;
 import com.jfixby.r3.activity.api.input.OnClickListener;
 import com.jfixby.r3.activity.api.layer.Layer;

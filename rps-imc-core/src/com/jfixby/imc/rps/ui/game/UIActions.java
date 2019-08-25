@@ -1,7 +1,15 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
+import com.jfixby.imc.rps.engine.PlayActionResult;
 import com.jfixby.imc.rps.engine.SPELL;
+import com.jfixby.imc.rps.ui.events.GoGame;
+import com.jfixby.imc.rps.ui.events.GoMenu;
+import com.jfixby.imc.rps.ui.events.PlayFightIntro;
+import com.jfixby.imc.rps.ui.events.ShowComputerResponse;
+import com.jfixby.imc.rps.ui.events.ShowControls;
+import com.jfixby.imc.rps.ui.events.SpellAction;
 import com.jfixby.r3.activity.api.act.UIAction;
 
 public class UIActions {
@@ -24,6 +32,14 @@ public class UIActions {
 
 	public static UIAction<RPSUnit> SpellAction (final SPELL spell) {
 		return new SpellAction(spell);
+	}
+
+	public static UIAction<RPSUnit> ShowComputerResponse (final PlayActionResult response) {
+		return new ShowComputerResponse(response);
+	}
+
+	public static UIAction<RPSUnit> ShowRoundResultMessage (final PlayActionResult result) {
+		return new ShowRoundResultMessage(result);
 	}
 
 }

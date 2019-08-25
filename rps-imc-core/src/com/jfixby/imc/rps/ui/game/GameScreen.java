@@ -1,6 +1,9 @@
 
 package com.jfixby.imc.rps.ui.game;
 
+import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
+import com.jfixby.imc.rps.engine.PlayActionResult;
+import com.jfixby.imc.rps.engine.RPSEngine;
 import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.imc.rps.ui.game.actions.ComputerActions;
 import com.jfixby.imc.rps.ui.game.actions.PlayerActions;
@@ -61,7 +64,9 @@ public class GameScreen {
 	}
 
 	public Animation brifPlayer (final GAME_DIFFICULTY diff) {
+		RPSEngine.engine.restartGame(diff);
 		return this.gameMessages.sayFight();
+
 	}
 
 	public void showUserControls () {
@@ -79,6 +84,11 @@ public class GameScreen {
 
 	public Animation playSpellAnimation (final SPELL spell) {
 		return this.playerActions.playSpell(spell);
+	}
+
+	public Animation showComputerResponse (final PlayActionResult response) {
+		this.playerActions.hideAll();
+		return this.computerActions.playSpell(response.computerReponse);
 	}
 
 }
