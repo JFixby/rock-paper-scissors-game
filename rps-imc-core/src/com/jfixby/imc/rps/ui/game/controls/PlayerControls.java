@@ -26,7 +26,7 @@ public class PlayerControls {
 	public void deploy (final Layer root) {
 		final RelativePath path = Utils.newRelativePath().child("controls");
 		this.root = root.findComponent(path);
-		this.root.print();
+// this.root.print();
 // Sys.exit();
 		this.btnRock.deploy(this.root);
 		this.btnPaper.deploy(this.root);

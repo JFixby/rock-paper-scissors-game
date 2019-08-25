@@ -141,19 +141,16 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
 	@Override
 	public void beginShadowing (final float value_begin, final float value_end) {
-		L.d("beginShadowing", value_begin + " -> " + value_end);
 		this.shadow.setValue(value_begin);
 	}
 
 	@Override
 	public void endShadowing (final float value_begin, final float value_end) {
-		L.d("endShadowing", value_begin + " -> " + value_end);
 		this.shadow.setValue(value_end);
 	}
 
 	@Override
 	public void updateShadow (final float value_current) {
-		L.d("updateShadow", value_current);
 		this.shadow.setValue(value_current);
 	}
 
