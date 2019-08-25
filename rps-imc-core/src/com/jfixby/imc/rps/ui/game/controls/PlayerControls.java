@@ -31,4 +31,8 @@ public class PlayerControls {
 		this.root.hide();
 	}
 
+	public void show () {
+		this.root.show();
+	}
+
 }

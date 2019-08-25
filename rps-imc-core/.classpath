@@ -7,5 +7,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/r3-activity-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/r3-scene2d-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/r3-sound-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/rps-imc-engine"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

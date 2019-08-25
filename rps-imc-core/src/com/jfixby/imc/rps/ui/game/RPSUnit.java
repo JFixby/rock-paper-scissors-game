@@ -85,14 +85,19 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
 	public void showMenu () {
 		this.gameScreen.hide();
+		this.gameScreen.reset();
 		this.menuScreen.show();
+		this.menuScreen.reset();
 		this.state.switchState(GAME_STATE.MENU);
 	}
 
-	public void showGame () {
+	public void showGame (final GAME_DIFFICULTY diff) {
+		this.gameScreen.reset();
+		this.menuScreen.reset();
 		this.gameScreen.show();
 		this.menuScreen.hide();
 		this.state.switchState(GAME_STATE.GAME);
+		this.gameScreen.onStartGame(diff);
 	}
 
 	public void goGame (final GAME_DIFFICULTY diff) {
@@ -164,5 +169,14 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 		}
 
 	};
+
+	public void brifPlayer (final PlayFightIntro playFightIntro, final GAME_DIFFICULTY diff) {
+		this.gameScreen.brifPlayer(diff);
+	}
+
+	public void showUserControls () {
+		this.gameScreen.hideMessages();
+		this.gameScreen.showUserControls();
+	}
 
 }

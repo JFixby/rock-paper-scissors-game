@@ -86,4 +86,7 @@ public class MenuScreen {
 	public void hide () {
 		this.root.hide();
 	}
+
+	public void reset () {
+	}
 }

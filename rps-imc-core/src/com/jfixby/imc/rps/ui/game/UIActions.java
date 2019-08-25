@@ -13,4 +13,12 @@ public class UIActions {
 		return new GoGame(diff);
 	}
 
+	public static UIAction<RPSUnit> PlayFightIntro (final GAME_DIFFICULTY diff) {
+		return new PlayFightIntro(diff);
+	}
+
+	public static UIAction<RPSUnit> ShowControls () {
+		return new ShowControls();
+	}
+
 }

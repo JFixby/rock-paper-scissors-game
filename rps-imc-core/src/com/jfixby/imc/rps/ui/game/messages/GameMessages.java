@@ -13,6 +13,7 @@ public class GameMessages {
 	final VictoryMessage victoryMessage = new VictoryMessage(this);
 	final DrawMessage drawMessage = new DrawMessage(this);
 	final FailMessage failMessage = new FailMessage(this);
+	final FightMessage fightMessage = new FightMessage(this);
 
 	public GameMessages (final GameScreen gameScreen) {
 	}
@@ -25,6 +26,7 @@ public class GameMessages {
 		this.victoryMessage.deploy(this.root);
 		this.drawMessage.deploy(this.root);
 		this.failMessage.deploy(this.root);
+		this.fightMessage.deploy(this.root);
 
 	}
 
@@ -32,6 +34,11 @@ public class GameMessages {
 		this.victoryMessage.hide();
 		this.failMessage.hide();
 		this.drawMessage.hide();
+		this.fightMessage.hide();
+	}
+
+	public void sayFight () {
+		this.fightMessage.show();
 	}
 
 }

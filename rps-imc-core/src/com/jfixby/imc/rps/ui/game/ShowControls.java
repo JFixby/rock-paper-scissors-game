@@ -3,17 +3,11 @@ package com.jfixby.imc.rps.ui.game;
 
 import com.jfixby.r3.activity.api.act.UIAction;
 
-public class GoGame implements UIAction<RPSUnit> {
-
-	private final GAME_DIFFICULTY diff;
-
-	public GoGame (final GAME_DIFFICULTY diff) {
-		this.diff = diff;
-	}
+public class ShowControls implements UIAction<RPSUnit> {
 
 	@Override
 	public void start (final RPSUnit ui) {
-		ui.showGame(this.diff);
+		ui.showUserControls();
 	}
 
 	@Override
