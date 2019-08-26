@@ -1,5 +1,12 @@
 /.gradle/
 /.settings/
-.classpath
-
 .project
+/bin/
+
+rps-imc-desktop/.classpath
+
+rps-imc-core/.classpath
+
+rps-imc-assets/.classpath
+
+
