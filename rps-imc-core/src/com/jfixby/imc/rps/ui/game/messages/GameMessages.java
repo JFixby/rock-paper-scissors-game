@@ -2,7 +2,7 @@
 package com.jfixby.imc.rps.ui.game.messages;
 
 import com.jfixby.imc.rps.ui.game.GameScreen;
-import com.jfixby.r3.activity.api.animation.Animation;
+import com.jfixby.r3.activity.api.audio.SoundEvent;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -38,19 +38,23 @@ public class GameMessages {
 		this.fightMessage.hide();
 	}
 
-	public Animation sayFight () {
+	public SoundEvent sayFight () {
+		this.hideAll();
 		return this.fightMessage.show();
 	}
 
 	public void sayVictory () {
+		this.hideAll();
 		this.victoryMessage.show();
 	}
 
 	public void sayFail () {
+		this.hideAll();
 		this.failMessage.show();
 	}
 
 	public void sayDraw () {
+		this.hideAll();
 		this.drawMessage.show();
 	}
 

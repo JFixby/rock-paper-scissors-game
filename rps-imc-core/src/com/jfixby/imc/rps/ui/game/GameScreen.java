@@ -11,6 +11,7 @@ import com.jfixby.imc.rps.ui.game.spells.ComputerActions;
 import com.jfixby.imc.rps.ui.game.spells.PlayerActions;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.animation.Animation;
+import com.jfixby.r3.activity.api.audio.SoundEvent;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.err.Err;
 import com.jfixby.scarabei.api.util.Utils;
@@ -59,12 +60,12 @@ public class GameScreen {
 
 	public void onStartGame (final GAME_DIFFICULTY diff) {
 		UIEventsManager.pushAction(UIActions.PlayFightIntro(diff));
-		final long wait = 800L;
+		final long wait = 4000L;
 		UIEventsManager.pushWait(wait);
 		UIEventsManager.pushAction(UIActions.ShowControls());
 	}
 
-	public Animation brifPlayer (final GAME_DIFFICULTY diff) {
+	public SoundEvent brifPlayer (final GAME_DIFFICULTY diff) {
 		RPSEngine.engine.restartGame(diff);
 		return this.gameMessages.sayFight();
 

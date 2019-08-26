@@ -21,7 +21,7 @@ public class Sounds implements CollectionConverter<Component, SoundEvent> {
 
 	public SoundEvent playRandomEvent () {
 		final int index = Random.newInt(0, this.events.size() - 1);
-		return this.playEvent(index);
+		return this.playEvent(-index);
 	}
 
 	private SoundEvent playEvent (final int index) {

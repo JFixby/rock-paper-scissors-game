@@ -1,8 +1,8 @@
 
 package com.jfixby.imc.rps.ui.game.messages;
 
-import com.jfixby.r3.activity.api.animation.Animation;
 import com.jfixby.r3.activity.api.animation.LayersAnimation;
+import com.jfixby.r3.activity.api.audio.SoundEvent;
 import com.jfixby.r3.activity.api.layer.Layer;
 import com.jfixby.scarabei.api.util.Utils;
 import com.jfixby.scarabei.api.util.path.RelativePath;
@@ -31,10 +31,10 @@ public class FightMessage {
 		this.animation.stopAnimation();
 	}
 
-	public Animation show () {
+	public SoundEvent show () {
 		this.root.show();
 		this.animation.startAnimation();
-		this.sounds.playRandomEvent();
-		return this.animation;
+		final SoundEvent e = this.sounds.playRandomEvent();
+		return e;
 	}
 }

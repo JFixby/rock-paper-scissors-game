@@ -49,7 +49,7 @@ public class PlayerControls {
 		UIEventsManager.pushAction(UIActions.ShowComputerResponse(result));
 		UIEventsManager.pushWait(wait);
 		UIEventsManager.pushAction(UIActions.ShowRoundResultMessage(result));
-		UIEventsManager.pushWait(wait);
+		UIEventsManager.pushWait(4000);
 		UIEventsManager.pushAction(UIActions.ShowControls());
 	}
 

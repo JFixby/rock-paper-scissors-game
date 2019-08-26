@@ -11,6 +11,7 @@ import com.jfixby.r3.activity.api.ComponentsFactory;
 import com.jfixby.r3.activity.api.act.ShadowStateListener;
 import com.jfixby.r3.activity.api.act.UIEventsManager;
 import com.jfixby.r3.activity.api.animation.Animation;
+import com.jfixby.r3.activity.api.audio.SoundEvent;
 import com.jfixby.r3.activity.api.camera.Shadow;
 import com.jfixby.r3.activity.api.camera.ShadowSpecs;
 import com.jfixby.r3.activity.api.input.InputManager;
@@ -172,7 +173,7 @@ public class RPSUnit implements Activity, InputManager, ShadowStateListener {
 
 	};
 
-	public Animation brifPlayer (final PlayFightIntro playFightIntro, final GAME_DIFFICULTY diff) {
+	public SoundEvent brifPlayer (final PlayFightIntro playFightIntro, final GAME_DIFFICULTY diff) {
 		return this.gameScreen.brifPlayer(diff);
 	}
 

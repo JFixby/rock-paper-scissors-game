@@ -4,12 +4,12 @@ package com.jfixby.imc.rps.ui.events;
 import com.jfixby.imc.rps.engine.GAME_DIFFICULTY;
 import com.jfixby.imc.rps.ui.game.RPSUnit;
 import com.jfixby.r3.activity.api.act.UIAction;
-import com.jfixby.r3.activity.api.animation.Animation;
+import com.jfixby.r3.activity.api.audio.SoundEvent;
 
 public class PlayFightIntro implements UIAction<RPSUnit> {
 
 	private final GAME_DIFFICULTY diff;
-	private Animation anim;
+	private SoundEvent event;
 
 	public PlayFightIntro (final GAME_DIFFICULTY diff) {
 		this.diff = diff;
@@ -17,7 +17,7 @@ public class PlayFightIntro implements UIAction<RPSUnit> {
 
 	@Override
 	public void start (final RPSUnit ui) {
-		this.anim = ui.brifPlayer(this, this.diff);
+		this.event = ui.brifPlayer(this, this.diff);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class PlayFightIntro implements UIAction<RPSUnit> {
 
 	@Override
 	public boolean isDone (final RPSUnit ui) {
-		return this.anim.loopsComplete() >= 1f;
+		return true;
 	}
 
 }
