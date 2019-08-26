@@ -2,51 +2,51 @@
   "samples": [
     {
       "id": "com.jfixby.imc.rps.sound.messages.draw-01.mp3",
-      "file_name": "ESM_Demon_Vocal_Almost_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d1.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.draw-02.mp3",
-      "file_name": "ESM_Demon_Vocal_Fight_Swing_5_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d2.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.draw-03.mp3",
-      "file_name": "ESM_Demon_Vocal_Please_2_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d3.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fail-01.mp3",
-      "file_name": "ESM_Demon_Vocal_You_Are_Not_Prepared_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d4.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fail-02.mp3",
-      "file_name": "ESM_Demon_Vocal_I_See_The_Fear_In_Your_Eyes_2_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d5.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fail-03.mp3",
-      "file_name": "ESM_Demon_Vocal_I_Will_Feast_On_Your_Soul_Monster_Game_Voice.mp3"
+      "file_name": "d6.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fight-01.mp3",
-      "file_name": "ESM_Demon_Vocal_Fight_Me_1_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d7.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fight-02.mp3",
-      "file_name": "ESM_Demon_Vocal_Your_End_Comes_Soon_Monster_Game_Voice.mp3"
+      "file_name": "d8.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.fight-03.mp3",
-      "file_name": "ESM_Demon_Vocal_Your_Flesh_Will_Burn_Monster_Game_Voice.mp3"
+      "file_name": "d9.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.victory-01.mp3",
-      "file_name": "ESM_Demon_Vocal_I_Will_Have_My_Vengance_Monster_Game_Voice.mp3"
+      "file_name": "d10.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.victory-02.mp3",
-      "file_name": "ESM_Demon_Vocal_You_Win_Monster_Game_Voice.mp3"
+      "file_name": "d11.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.messages.victory-03.mp3",
-      "file_name": "ESM_Demon_Vocal_Battle_Cry_4_Monster_Game_Voice (online-audio-converter.com).mp3"
+      "file_name": "d12.mp3"
     }
   ]
 }

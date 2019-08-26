@@ -2,27 +2,27 @@
   "samples": [
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.paper-01.mp3",
-      "file_name": "ESM_Ambient_Game_Gas_Dark_Magic_Buff_1_Wizard_Sorcerer_Org_Glass_Impact.mp3"
+      "file_name": "e1.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.paper-02.mp3",
-      "file_name": "ESM_Fantasy_Game_Book_Page_Turn_1_Paper_Library_Magic_Ancient_Medieval.mp3"
+      "file_name": "e2.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.rock-01.mp3",
-      "file_name": "ESM_Fantasy_Game_Crafting_Select_Ore_Metal_Impact_Hit_Stone.mp3"
+      "file_name": "e3.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.rock-02.mp3",
-      "file_name": "ESM_Builder_Game_Fireworks_Bomb_Explosion_1_Fire_Bomb_Explosive_War_Battle_Rocket_Mortar_Tank_Cannon (online-audio-converter.com).mp3"
+      "file_name": "e4.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.scissors-01.mp3",
-      "file_name": "ESM_Flint_Fire_Starter_Strike_3_Organic_Elemental_Debris_Foley_Sound_Design_Source_Rock_.mp3"
+      "file_name": "e5.mp3"
     },
     {
       "id": "com.jfixby.imc.rps.sound.spells.player.scissors-02.mp3",
-      "file_name": "ESM_Flint_Fire_Starter_Strike_7_Organic_Elemental_Debris_Foley_Sound_Design_Source_Rock_.mp3"
+      "file_name": "e6.mp3"
     }
   ]
 }
