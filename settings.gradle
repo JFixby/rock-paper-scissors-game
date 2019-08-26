@@ -1,4 +1,3 @@
-include 'rps-imc-assets-packer'
 include 'rps-imc-assets'
 include 'rps-imc-core'
 include 'rps-imc-engine'
@@ -6,4 +5,6 @@ include 'rps-imc-desktop'
 include 'rps-imc-android'
 include 'rps-imc-ios'
 include 'rps-imc-gwt'
+
+//include 'rps-imc-assets-packer'
 
