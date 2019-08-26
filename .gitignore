@@ -12,3 +12,5 @@ rps-imc-assets/.classpath
 
 
 .classpath
+
+build/

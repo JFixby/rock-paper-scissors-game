@@ -72,6 +72,8 @@ public class RunRPSDesktop {
 
 		ScarabeiDesktop.deploy();
 
+		SystemSettings.setExecutionMode(ExecutionMode.PUBLIC_RELEASE);
+
 		LoadedAssets.installComponent(new RedLoadedAssets());
 		AssetsManager.installComponent(new RedAssetsManager());
 		PackagesLoader.installComponent(new RedPackagesLoader());
