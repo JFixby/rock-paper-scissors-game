@@ -26,7 +26,7 @@ public class ProduceFokkerStarter {
 
 		final FokkerStarterConfig fokkerConfig = new FokkerStarterConfig();
 
-		fokkerConfig.params.put(FokkerStarterConfig.useGL30, true + "");
+		fokkerConfig.params.put(FokkerStarterConfig.useGL30, false + "");
 		fokkerConfig.params.put(FokkerStarterConfig.width, "1024");
 		fokkerConfig.params.put(FokkerStarterConfig.height, "800");
 		fokkerConfig.params.put(FokkerStarterConfig.fullscreen, true + "");
