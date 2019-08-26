@@ -11,8 +11,9 @@ buildscript {
 }
 
 ext {
-        scarabeiAPILevel = "F.2"
-        scarabeiVersion = "F.2.0"
+
+        scarabeiVersion = "5.2.3"
+        redTriplaneVersion = "6918cd090e"
         gdxVersion = "1.9.6"
 }
 

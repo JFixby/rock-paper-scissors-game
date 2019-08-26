@@ -1,0 +1,13 @@
+ sourceCompatibility = 1.8
+ 
+ dependencies {
+ 
+      compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
+
+      compile "com.github.RedTriplane.R3:r3-activity-api:$redTriplaneVersion"
+      compile "com.github.RedTriplane.R3:r3-scene2d-api:$redTriplaneVersion"
+      
+      compile project(":rps-imc-engine")
+ }
+ 
+ 

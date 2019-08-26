@@ -1,7 +1,12 @@
-
 sourceCompatibility = 1.8
 
 dependencies {
+
+    compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
+    compile "com.github.Scarabei.Scarabei:scarabei-red-desktop:$scarabeiVersion"
+    
+    compile project(":rps-imc-core")
+    compile project(":rps-imc-engine")
     
     compile "com.badlogicgames.gdx:gdx:$gdxVersion"
 	compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
@@ -9,22 +14,24 @@ dependencies {
 	compile "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
 	compile "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
 	
+	compile "com.github.RedTriplane.R3:r3-engine-api:$redTriplaneVersion"
 	
-	//compile "com.github.Scarabei.Scarabei:scarabei-gson:$scarabeiVersion"
-	////compile "com.github.Scarabei.Scarabei:scarabei-red:$scarabeiVersion"
-	//compile "com.github.Scarabei.Scarabei:scarabei-red-desktop:$scarabeiVersion"
+	compile "com.github.RedTriplane.R3:r3-sound-api:$redTriplaneVersion"
 	
-	//compile "com.github.RedTriplane.Rana:rana-package-red:$ranaVersion"
-	//compile "com.github.RedTriplane.Rana:rana-asset-red:$ranaVersion"
-	//compile "com.github.RedTriplane.Rana:rana-manager-red:$ranaVersion"
-	//compile "com.github.RedTriplane.Rana:rana-loader-red:$ranaVersion"
+	compile "com.github.RedTriplane.R3:r3-activity-api:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-activity-red:$redTriplaneVersion"
 	
-	//compile "com.github.RedTriplane.Fokker:fokker-core:$fokkerVersion"
-	//compile "com.github.RedTriplane.Fokker:fokker-desktop:$fokkerVersion"
-	//compile "com.github.RedTriplane.Fokker:fokker-render-red:$fokkerVersion"
+	compile "com.github.RedTriplane.R3:r3-scene2d-red:$redTriplaneVersion"
 	
-	//compile "com.github.RedTriplane.RedTriplane:red-triplane-scene2d-red:$r3Version"
-	//compile "com.github.RedTriplane.RedTriplane:red-triplane-uiact-red:$r3Version"
+	compile "com.github.RedTriplane.R3:r3-rana-api:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-rana-red:$redTriplaneVersion"
 	
-	//compile "com.github.RedTriplane.RedStrings:strings-red:$strVersion" 
+	compile "com.github.RedTriplane.R3:r3-fokker-engine:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-fokker-desktop:$redTriplaneVersion"
+	
+	compile "com.github.RedTriplane.R3:r3-fokker-shader-red:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-fokker-raster-red:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-fokker-sound-red:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-fokker-render-red:$redTriplaneVersion"
+	compile "com.github.RedTriplane.R3:r3-fokker-font-red:$redTriplaneVersion"
 }
