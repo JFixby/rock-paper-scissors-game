@@ -19,20 +19,23 @@ public class Sounds implements CollectionConverter<Component, SoundEvent> {
 		this.playEvent(-1);
 	}
 
-	public void playRandomEvent () {
+	public SoundEvent playRandomEvent () {
 		final int index = Random.newInt(0, this.events.size() - 1);
-		this.playEvent(index);
+		return this.playEvent(index);
 	}
 
-	private void playEvent (final int index) {
+	private SoundEvent playEvent (final int index) {
+		SoundEvent play = null;
 		for (int i = 0; i < this.events.size(); i++) {
 			final SoundEvent e = this.events.getElementAt(i);
 			if (i == index) {
 				e.play();
+				play = e;
 			} else {
 				e.mute();
 			}
 		}
+		return play;
 	}
 
 	@Override

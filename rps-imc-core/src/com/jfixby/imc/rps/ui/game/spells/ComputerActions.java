@@ -1,5 +1,5 @@
 
-package com.jfixby.imc.rps.ui.game.actions;
+package com.jfixby.imc.rps.ui.game.spells;
 
 import com.jfixby.imc.rps.engine.SPELL;
 import com.jfixby.imc.rps.ui.game.GameScreen;
@@ -13,9 +13,10 @@ import com.jfixby.scarabei.api.util.path.RelativePath;
 public class ComputerActions {
 
 	private Layer root;
-	final ComputerActionRock actionRock = new ComputerActionRock(this);
-	final ComputerActionScissors actionScissors = new ComputerActionScissors(this);
-	final ComputerActionPaper actionPaper = new ComputerActionPaper(this);
+
+	final SpellAction actionRock = new SpellAction("rock");
+	final SpellAction actionScissors = new SpellAction("scissors");
+	final SpellAction actionPaper = new SpellAction("paper");
 
 	public ComputerActions (final GameScreen gameScreen) {
 	}
