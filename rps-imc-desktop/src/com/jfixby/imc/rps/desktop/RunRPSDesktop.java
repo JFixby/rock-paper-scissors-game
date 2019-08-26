@@ -128,8 +128,6 @@ public class RunRPSDesktop {
 		cfg.width = starterConfig.getWindowWidth();
 		cfg.height = starterConfig.getWindowHeight();
 
-		cfg.fullscreen = false;
-
 		final ApplicationListener gdx_listener = adaptor.getGDXApplicationListener();
 
 		new FokkerLwjglApplication(gdx_listener, cfg);
