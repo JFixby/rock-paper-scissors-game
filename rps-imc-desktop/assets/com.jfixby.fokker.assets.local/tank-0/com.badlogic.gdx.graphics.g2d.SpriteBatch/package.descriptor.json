@@ -1,7 +1,7 @@
 {
   "format": "RedTriplane.Shader",
   "version": "1.0",
-  "timestamp": "1566834880082",
+  "timestamp": "1566835070760",
   "root_file_name": "fokker-shaders.fsh",
   "packed_assets": [
     "com.badlogic.gdx.graphics.g2d.SpriteBatch.DefaultShader"

@@ -1,7 +1,7 @@
 {
   "format": "RedTriplane.Shader",
   "version": "1.0",
-  "timestamp": "1566834880284",
+  "timestamp": "1566835070924",
   "root_file_name": "fokker-shaders.fsh",
   "packed_assets": [
     "com.jfixby.fokker.assets.render.shader.diffusion",
