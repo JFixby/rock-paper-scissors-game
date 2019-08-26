@@ -1,0 +1,15 @@
+{
+  "format": "RedTriplane.audio",
+  "version": "1.0",
+  "timestamp": "1566834476005",
+  "root_file_name": "audio-package.json",
+  "packed_assets": [
+    "com.jfixby.imc.rps.sound.spells.player.paper-01.mp3",
+    "com.jfixby.imc.rps.sound.spells.player.paper-02.mp3",
+    "com.jfixby.imc.rps.sound.spells.player.rock-01.mp3",
+    "com.jfixby.imc.rps.sound.spells.player.rock-02.mp3",
+    "com.jfixby.imc.rps.sound.spells.player.scissors-01.mp3",
+    "com.jfixby.imc.rps.sound.spells.player.scissors-02.mp3"
+  ],
+  "package_dependencies": []
+}

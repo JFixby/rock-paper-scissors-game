@@ -1,0 +1,23 @@
+{
+  "format": "libGDX.Atlas",
+  "version": "1.0",
+  "timestamp": "1566834494485",
+  "root_file_name": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster.gdx-atlas",
+  "packed_assets": [
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_0",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_1",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_2",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_3",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_4",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_5",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_6",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_7",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_8",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_9",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_10",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_11",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_12",
+    "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_13"
+  ],
+  "package_dependencies": []
+}

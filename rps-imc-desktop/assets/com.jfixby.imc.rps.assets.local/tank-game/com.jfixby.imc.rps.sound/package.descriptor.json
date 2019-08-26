@@ -1,0 +1,10 @@
+{
+  "format": "RedTriplane.audio",
+  "version": "1.0",
+  "timestamp": "1566834475084",
+  "root_file_name": "audio-package.json",
+  "packed_assets": [
+    "com.jfixby.imc.rps.sound.music.mp3"
+  ],
+  "package_dependencies": []
+}

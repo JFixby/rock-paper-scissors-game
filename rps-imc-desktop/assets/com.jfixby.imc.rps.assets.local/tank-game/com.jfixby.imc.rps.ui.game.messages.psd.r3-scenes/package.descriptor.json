@@ -1,0 +1,39 @@
+{
+  "format": "RedTriplane.Scene2D",
+  "version": "1.0",
+  "timestamp": "1566834489757",
+  "root_file_name": "com.jfixby.imc.rps.ui.game.messages.psd.r3-scenes",
+  "packed_assets": [
+    "com.jfixby.imc.rps.ui.game.messages.psd"
+  ],
+  "package_dependencies": [
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_0",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_1",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_2",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_3",
+    "com.jfixby.imc.rps.sound.messages.fight-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.fight-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.fight-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-01.mp3",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_4",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_5",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_6",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_7",
+    "com.jfixby.imc.rps.sound.messages.fail-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.fail-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.fail-01.mp3",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_8",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_9",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_10",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_11",
+    "com.jfixby.imc.rps.sound.messages.draw-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.draw-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.draw-03.mp3",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_12",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_13",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_14",
+    "com.jfixby.imc.rps.ui.game.messages.psd.raster_15"
+  ]
+}

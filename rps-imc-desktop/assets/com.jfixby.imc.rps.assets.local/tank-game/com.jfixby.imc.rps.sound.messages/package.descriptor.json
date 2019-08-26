@@ -1,0 +1,21 @@
+{
+  "format": "RedTriplane.audio",
+  "version": "1.0",
+  "timestamp": "1566834475617",
+  "root_file_name": "audio-package.json",
+  "packed_assets": [
+    "com.jfixby.imc.rps.sound.messages.draw-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.draw-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.draw-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.fail-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.fail-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.fail-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.fight-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.fight-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.fight-03.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-01.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-02.mp3",
+    "com.jfixby.imc.rps.sound.messages.victory-03.mp3"
+  ],
+  "package_dependencies": []
+}

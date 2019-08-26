@@ -1,0 +1,877 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.messages.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.messages.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1",
+            "le-11",
+            "le-21",
+            "le-31"
+          ]
+        }
+      },
+      "original_width": 0.0,
+      "original_height": 0.0,
+      "elements": {
+        "le-6": {
+          "uid": "le-6",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FIGHT copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_3",
+          "blend_mode": "NORMAL",
+          "opacity": 0.21960784494876862,
+          "position_x": 171.0,
+          "position_y": 137.0,
+          "width": 682.0,
+          "height": 339.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-7": {
+          "uid": "le-7",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-8",
+              "le-9",
+              "le-10"
+            ]
+          }
+        },
+        "le-30": {
+          "uid": "le-30",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FAIL! copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_11",
+          "blend_mode": "NORMAL",
+          "opacity": 0.250980406999588,
+          "position_x": 98.0,
+          "position_y": 215.0,
+          "width": 822.0,
+          "height": 307.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-4": {
+          "uid": "le-4",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FIGHT copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_1",
+          "blend_mode": "NORMAL",
+          "opacity": 0.6196078658103943,
+          "position_x": 276.0,
+          "position_y": 219.0,
+          "width": 472.0,
+          "height": 175.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-31": {
+          "uid": "le-31",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "draw",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-32",
+              "le-36"
+            ]
+          }
+        },
+        "le-5": {
+          "uid": "le-5",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FIGHT copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_2",
+          "blend_mode": "NORMAL",
+          "opacity": 0.47843137383461,
+          "position_x": 213.0,
+          "position_y": 189.0,
+          "width": 598.0,
+          "height": 235.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-10": {
+          "uid": "le-10",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.03",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fight-03.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-32": {
+          "uid": "le-32",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-33",
+              "le-34",
+              "le-35"
+            ]
+          }
+        },
+        "le-11": {
+          "uid": "le-11",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "victory",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-12",
+              "le-16"
+            ]
+          }
+        },
+        "le-33": {
+          "uid": "le-33",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.draw-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-12": {
+          "uid": "le-12",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-13",
+              "le-14",
+              "le-15"
+            ]
+          }
+        },
+        "le-34": {
+          "uid": "le-34",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.draw-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-8": {
+          "uid": "le-8",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fight-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-13": {
+          "uid": "le-13",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.victory-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-35": {
+          "uid": "le-35",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.03",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.draw-03.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-9": {
+          "uid": "le-9",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fight-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-14": {
+          "uid": "le-14",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.03",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.victory-03.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-36": {
+          "uid": "le-36",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "animation",
+          "animation_id": "com.jfixby.imc.rps.ui.game.messages.psd.scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-37",
+              "le-38",
+              "le-39",
+              "le-40"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-15": {
+          "uid": "le-15",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.victory-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-37": {
+          "uid": "le-37",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "DRAW",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_12",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 314.0,
+          "position_y": 315.0,
+          "width": 407.0,
+          "height": 105.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-16": {
+          "uid": "le-16",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "animation",
+          "animation_id": "com.jfixby.imc.rps.ui.game.messages.psd.scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-17",
+              "le-18",
+              "le-19",
+              "le-20"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-38": {
+          "uid": "le-38",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "DRAW copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_13",
+          "blend_mode": "NORMAL",
+          "opacity": 0.7490196228027344,
+          "position_x": 314.0,
+          "position_y": 315.0,
+          "width": 407.0,
+          "height": 105.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-17": {
+          "uid": "le-17",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "VICTORY! copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_4",
+          "blend_mode": "NORMAL",
+          "opacity": 0.7019608020782471,
+          "position_x": 246.0,
+          "position_y": 266.0,
+          "width": 532.0,
+          "height": 93.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-39": {
+          "uid": "le-39",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "DRAW copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_14",
+          "blend_mode": "NORMAL",
+          "opacity": 0.5098039507865906,
+          "position_x": 314.0,
+          "position_y": 315.0,
+          "width": 407.0,
+          "height": 105.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-18": {
+          "uid": "le-18",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "VICTORY!",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_5",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 209.0,
+          "position_y": 260.0,
+          "width": 606.0,
+          "height": 105.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-19": {
+          "uid": "le-19",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "VICTORY! copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_6",
+          "blend_mode": "NORMAL",
+          "opacity": 0.47058823704719543,
+          "position_x": 282.0,
+          "position_y": 273.0,
+          "width": 460.0,
+          "height": 79.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-2": {
+          "uid": "le-2",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "animation",
+          "animation_id": "com.jfixby.imc.rps.ui.game.messages.psd.scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-3",
+              "le-4",
+              "le-5",
+              "le-6"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FIGHT",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_0",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 306.0,
+          "position_y": 250.0,
+          "width": 412.0,
+          "height": 112.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.messages.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1",
+              "le-11",
+              "le-21",
+              "le-31"
+            ]
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "fight",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-2",
+              "le-7"
+            ]
+          }
+        },
+        "le-40": {
+          "uid": "le-40",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "DRAW copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_15",
+          "blend_mode": "NORMAL",
+          "opacity": 0.1882352977991104,
+          "position_x": 314.0,
+          "position_y": 315.0,
+          "width": 407.0,
+          "height": 105.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-20": {
+          "uid": "le-20",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "VICTORY! copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_7",
+          "blend_mode": "NORMAL",
+          "opacity": 0.23137255012989044,
+          "position_x": 341.0,
+          "position_y": 283.0,
+          "width": 342.0,
+          "height": 59.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-21": {
+          "uid": "le-21",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "fail",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-22",
+              "le-26"
+            ]
+          }
+        },
+        "le-22": {
+          "uid": "le-22",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-23",
+              "le-24",
+              "le-25"
+            ]
+          }
+        },
+        "le-23": {
+          "uid": "le-23",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.03",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fail-03.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-24": {
+          "uid": "le-24",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fail-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-25": {
+          "uid": "le-25",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.messages.fail-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-26": {
+          "uid": "le-26",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "animation",
+          "animation_id": "com.jfixby.imc.rps.ui.game.messages.psd.scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-27",
+              "le-28",
+              "le-29",
+              "le-30"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-27": {
+          "uid": "le-27",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FAIL!",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_8",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 366.0,
+          "position_y": 315.0,
+          "width": 286.0,
+          "height": 107.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-28": {
+          "uid": "le-28",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FAIL! copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_9",
+          "blend_mode": "NORMAL",
+          "opacity": 0.7686274647712708,
+          "position_x": 303.0,
+          "position_y": 292.0,
+          "width": 412.0,
+          "height": 153.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        },
+        "le-29": {
+          "uid": "le-29",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "FAIL! copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.messages.psd.raster_10",
+          "blend_mode": "NORMAL",
+          "opacity": 0.47058823704719543,
+          "position_x": 210.0,
+          "position_y": 257.0,
+          "width": 598.0,
+          "height": 223.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "300"
+          }
+        }
+      }
+    }
+  ]
+}

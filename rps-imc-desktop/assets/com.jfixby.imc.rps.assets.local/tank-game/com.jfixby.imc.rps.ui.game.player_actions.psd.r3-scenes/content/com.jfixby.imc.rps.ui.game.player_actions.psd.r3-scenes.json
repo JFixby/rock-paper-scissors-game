@@ -1,0 +1,658 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.player_actions.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.player_actions.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1",
+            "le-12",
+            "le-21"
+          ]
+        }
+      },
+      "original_width": 0.0,
+      "original_height": 0.0,
+      "elements": {
+        "le-6": {
+          "uid": "le-6",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 41 copy 4",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_0",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 443.0,
+          "position_y": 191.0,
+          "width": 309.0,
+          "height": 333.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-7": {
+          "uid": "le-7",
+          "is_raster": true,
+          "is_hidden": true,
+          "name": "Layer 41",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_1",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 424.0,
+          "position_y": 175.0,
+          "width": 344.0,
+          "height": 349.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-4": {
+          "uid": "le-4",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.rock-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-5": {
+          "uid": "le-5",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "anim",
+          "animation_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.rock",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-6",
+              "le-7",
+              "le-8",
+              "le-9",
+              "le-10",
+              "le-11"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-10": {
+          "uid": "le-10",
+          "is_raster": true,
+          "is_hidden": true,
+          "name": "Layer 41 copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_4",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 482.0,
+          "position_y": 233.0,
+          "width": 231.0,
+          "height": 249.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-11": {
+          "uid": "le-11",
+          "is_raster": true,
+          "is_hidden": true,
+          "name": "Layer 41 copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_5",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 498.0,
+          "position_y": 265.0,
+          "width": 199.0,
+          "height": 185.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-12": {
+          "uid": "le-12",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "paper",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-13",
+              "le-16"
+            ]
+          }
+        },
+        "le-8": {
+          "uid": "le-8",
+          "is_raster": true,
+          "is_hidden": true,
+          "name": "Layer 41 copy 5",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_2",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 443.0,
+          "position_y": 191.0,
+          "width": 309.0,
+          "height": 333.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-13": {
+          "uid": "le-13",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-14",
+              "le-15"
+            ]
+          }
+        },
+        "le-9": {
+          "uid": "le-9",
+          "is_raster": true,
+          "is_hidden": true,
+          "name": "Layer 41 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_3",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 443.0,
+          "position_y": 191.0,
+          "width": 309.0,
+          "height": 333.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-14": {
+          "uid": "le-14",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.paper-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-15": {
+          "uid": "le-15",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.paper-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-16": {
+          "uid": "le-16",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "anim",
+          "animation_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.paper",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-17",
+              "le-18",
+              "le-19",
+              "le-20"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-17": {
+          "uid": "le-17",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 42",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_6",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 516.0,
+          "position_y": 72.0,
+          "width": 373.0,
+          "height": 649.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-18": {
+          "uid": "le-18",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 42 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_7",
+          "blend_mode": "NORMAL",
+          "opacity": 0.7098039388656616,
+          "position_x": 508.0,
+          "position_y": 144.0,
+          "width": 307.0,
+          "height": 533.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-19": {
+          "uid": "le-19",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 42 copy 2",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_8",
+          "blend_mode": "NORMAL",
+          "opacity": 0.3607843220233917,
+          "position_x": 512.0,
+          "position_y": 176.0,
+          "width": 242.0,
+          "height": 419.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-2": {
+          "uid": "le-2",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-3",
+              "le-4"
+            ]
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.rock-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.player_actions.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1",
+              "le-12",
+              "le-21"
+            ]
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "rock",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-2",
+              "le-5"
+            ]
+          }
+        },
+        "le-20": {
+          "uid": "le-20",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 42 copy 3",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_9",
+          "blend_mode": "NORMAL",
+          "opacity": 0.21960784494876862,
+          "position_x": 522.0,
+          "position_y": 220.0,
+          "width": 185.0,
+          "height": 319.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-21": {
+          "uid": "le-21",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-22",
+              "le-27"
+            ]
+          }
+        },
+        "le-22": {
+          "uid": "le-22",
+          "is_animation": true,
+          "is_hidden": false,
+          "debug_mode": false,
+          "name": "anim",
+          "animation_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.scissors",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-23",
+              "le-24",
+              "le-25",
+              "le-26"
+            ]
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": true,
+            "is_looped": true,
+            "use_spline": true,
+            "autostart": false,
+            "anchors": []
+          }
+        },
+        "le-23": {
+          "uid": "le-23",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 43 copy 5",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_10",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 707.0,
+          "position_y": 406.0,
+          "width": 265.0,
+          "height": 304.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-24": {
+          "uid": "le-24",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 43 copy 6",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_11",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 651.0,
+          "position_y": 323.0,
+          "width": 265.0,
+          "height": 304.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-25": {
+          "uid": "le-25",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 43 copy 7",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_12",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 615.0,
+          "position_y": 277.0,
+          "width": 265.0,
+          "height": 304.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-26": {
+          "uid": "le-26",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 43 copy 8",
+          "raster_id": "com.jfixby.imc.rps.ui.game.player_actions.psd.raster_13",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 594.0,
+          "position_y": 253.0,
+          "width": 265.0,
+          "height": 304.0,
+          "children": {
+            "list": []
+          },
+          "animation_settings": {
+            "is_positions_modifyer_animation": false,
+            "is_simple_animation": false,
+            "is_looped": false,
+            "use_spline": false,
+            "autostart": false,
+            "anchors": [],
+            "frame_time": "200"
+          }
+        },
+        "le-27": {
+          "uid": "le-27",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "sounds",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-28",
+              "le-29"
+            ]
+          }
+        },
+        "le-28": {
+          "uid": "le-28",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.02",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.scissors-02.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        },
+        "le-29": {
+          "uid": "le-29",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "sound.01",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.spells.player.scissors-01.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": true,
+            "is_music": false,
+            "volume": 1.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.menu.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.menu.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1",
+            "le-2",
+            "le-14",
+            "le-26",
+            "le-38"
+          ]
+        }
+      },
+      "original_width": 0.0,
+      "original_height": 0.0,
+      "elements": {
+        "le-6": {
+          "uid": "le-6",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 2",
+          "opacity": 1.0,
+          "position_x": -107.0,
+          "position_y": -492.0,
+          "children": {
+            "list": [
+              "le-7",
+              "le-8"
+            ]
+          }
+        },
+        "le-7": {
+          "uid": "le-7",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 23 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_2",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 53.0,
+          "position_y": 28.0,
+          "width": 123.0,
+          "height": 113.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-30": {
+          "uid": "le-30",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 6",
+          "opacity": 1.0,
+          "position_x": -727.0,
+          "position_y": -476.0,
+          "children": {
+            "list": [
+              "le-31",
+              "le-32"
+            ]
+          }
+        },
+        "le-4": {
+          "uid": "le-4",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 1",
+          "opacity": 1.0,
+          "position_x": -107.0,
+          "position_y": -492.0,
+          "children": {
+            "list": [
+              "le-5"
+            ]
+          }
+        },
+        "le-31": {
+          "uid": "le-31",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Impossible",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_12",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 27.0,
+          "position_y": 208.0,
+          "width": 190.0,
+          "height": 35.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-5": {
+          "uid": "le-5",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 23",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_1",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 53.0,
+          "position_y": 41.0,
+          "width": 123.0,
+          "height": 113.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-10": {
+          "uid": "le-10",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-32": {
+          "uid": "le-32",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 25 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_13",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 20.0,
+          "position_y": 9.0,
+          "width": 204.0,
+          "height": 194.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-11": {
+          "uid": "le-11",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-33": {
+          "uid": "le-33",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-12": {
+          "uid": "le-12",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-13"
+            ]
+          }
+        },
+        "le-34": {
+          "uid": "le-34",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-8": {
+          "uid": "le-8",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Easy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_3",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 68.0,
+          "position_y": 146.0,
+          "width": 79.0,
+          "height": 36.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-13": {
+          "uid": "le-13",
+          "name": "area_touch1",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 229.0,
+          "height": 195.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-35": {
+          "uid": "le-35",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-9": {
+          "uid": "le-9",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-14": {
+          "uid": "le-14",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "hard",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-15"
+            ]
+          }
+        },
+        "le-36": {
+          "uid": "le-36",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-37"
+            ]
+          }
+        },
+        "le-15": {
+          "uid": "le-15",
+          "is_hidden": false,
+          "is_user_input": true,
+          "debug_mode": false,
+          "name": "button",
+          "opacity": 1.0,
+          "position_x": 418.0,
+          "position_y": 441.0,
+          "children": {
+            "list": []
+          },
+          "input_settings": {
+            "is_button": true,
+            "is_switch": false,
+            "is_custom": false,
+            "is_touch_area": false,
+            "touch_area": {
+              "uid": "le-24",
+              "opacity": 1.0,
+              "children": {
+                "list": [
+                  "le-25"
+                ]
+              }
+            },
+            "on_hover": {
+              "uid": "le-18",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 4",
+              "opacity": 1.0,
+              "position_x": -418.0,
+              "position_y": -441.0,
+              "children": {
+                "list": [
+                  "le-19",
+                  "le-20"
+                ]
+              }
+            },
+            "on_released": {
+              "uid": "le-16",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 3",
+              "opacity": 1.0,
+              "position_x": -418.0,
+              "position_y": -441.0,
+              "children": {
+                "list": [
+                  "le-17"
+                ]
+              }
+            }
+          }
+        },
+        "le-37": {
+          "uid": "le-37",
+          "name": "area_touch1",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 241.0,
+          "height": 239.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-16": {
+          "uid": "le-16",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 3",
+          "opacity": 1.0,
+          "position_x": -418.0,
+          "position_y": -441.0,
+          "children": {
+            "list": [
+              "le-17"
+            ]
+          }
+        },
+        "le-38": {
+          "uid": "le-38",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Choose Difficulty",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_16",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 310.0,
+          "position_y": 341.0,
+          "width": 393.0,
+          "height": 61.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-17": {
+          "uid": "le-17",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 24 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_6",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 12.0,
+          "position_y": 31.0,
+          "width": 191.0,
+          "height": 191.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-18": {
+          "uid": "le-18",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 4",
+          "opacity": 1.0,
+          "position_x": -418.0,
+          "position_y": -441.0,
+          "children": {
+            "list": [
+              "le-19",
+              "le-20"
+            ]
+          }
+        },
+        "le-19": {
+          "uid": "le-19",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Hard",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_7",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 63.0,
+          "position_y": 221.0,
+          "width": 80.0,
+          "height": 29.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-2": {
+          "uid": "le-2",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "easy",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-3"
+            ]
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_hidden": false,
+          "is_user_input": true,
+          "debug_mode": false,
+          "name": "button",
+          "opacity": 1.0,
+          "position_x": 107.0,
+          "position_y": 492.0,
+          "children": {
+            "list": []
+          },
+          "input_settings": {
+            "is_button": true,
+            "is_switch": false,
+            "is_custom": false,
+            "is_touch_area": false,
+            "touch_area": {
+              "uid": "le-12",
+              "opacity": 1.0,
+              "children": {
+                "list": [
+                  "le-13"
+                ]
+              }
+            },
+            "on_hover": {
+              "uid": "le-6",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 2",
+              "opacity": 1.0,
+              "position_x": -107.0,
+              "position_y": -492.0,
+              "children": {
+                "list": [
+                  "le-7",
+                  "le-8"
+                ]
+              }
+            },
+            "on_released": {
+              "uid": "le-4",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 1",
+              "opacity": 1.0,
+              "position_x": -107.0,
+              "position_y": -492.0,
+              "children": {
+                "list": [
+                  "le-5"
+                ]
+              }
+            }
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.menu.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1",
+              "le-2",
+              "le-14",
+              "le-26",
+              "le-38"
+            ]
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 22",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_0",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 1024.0,
+          "height": 768.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-20": {
+          "uid": "le-20",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 24",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_8",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 12.0,
+          "position_y": 20.0,
+          "width": 191.0,
+          "height": 191.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-21": {
+          "uid": "le-21",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-22": {
+          "uid": "le-22",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-23": {
+          "uid": "le-23",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-24": {
+          "uid": "le-24",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-25"
+            ]
+          }
+        },
+        "le-25": {
+          "uid": "le-25",
+          "name": "area_touch1",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 235.0,
+          "height": 251.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-26": {
+          "uid": "le-26",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "impossible",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-27"
+            ]
+          }
+        },
+        "le-27": {
+          "uid": "le-27",
+          "is_hidden": false,
+          "is_user_input": true,
+          "debug_mode": false,
+          "name": "button",
+          "opacity": 1.0,
+          "position_x": 727.0,
+          "position_y": 476.0,
+          "children": {
+            "list": []
+          },
+          "input_settings": {
+            "is_button": true,
+            "is_switch": false,
+            "is_custom": false,
+            "is_touch_area": false,
+            "touch_area": {
+              "uid": "le-36",
+              "opacity": 1.0,
+              "children": {
+                "list": [
+                  "le-37"
+                ]
+              }
+            },
+            "on_hover": {
+              "uid": "le-30",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 6",
+              "opacity": 1.0,
+              "position_x": -727.0,
+              "position_y": -476.0,
+              "children": {
+                "list": [
+                  "le-31",
+                  "le-32"
+                ]
+              }
+            },
+            "on_released": {
+              "uid": "le-28",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 5",
+              "opacity": 1.0,
+              "position_x": -727.0,
+              "position_y": -476.0,
+              "children": {
+                "list": [
+                  "le-29"
+                ]
+              }
+            }
+          }
+        },
+        "le-28": {
+          "uid": "le-28",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 5",
+          "opacity": 1.0,
+          "position_x": -727.0,
+          "position_y": -476.0,
+          "children": {
+            "list": [
+              "le-29"
+            ]
+          }
+        },
+        "le-29": {
+          "uid": "le-29",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 25",
+          "raster_id": "com.jfixby.imc.rps.ui.game.menu.psd.raster_11",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 20.0,
+          "position_y": 17.0,
+          "width": 204.0,
+          "height": 194.0,
+          "children": {
+            "list": []
+          }
+        }
+      }
+    }
+  ]
+}

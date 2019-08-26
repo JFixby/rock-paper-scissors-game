@@ -1,0 +1,10 @@
+{
+  "format": "RedTriplane.Fokker.StarterConfig",
+  "version": "1.0",
+  "timestamp": "1566834475002",
+  "root_file_name": "r3-fokker-starter-config.json",
+  "packed_assets": [
+    "com.jfixby.imc.rps.fokker.starter.cfg"
+  ],
+  "package_dependencies": []
+}

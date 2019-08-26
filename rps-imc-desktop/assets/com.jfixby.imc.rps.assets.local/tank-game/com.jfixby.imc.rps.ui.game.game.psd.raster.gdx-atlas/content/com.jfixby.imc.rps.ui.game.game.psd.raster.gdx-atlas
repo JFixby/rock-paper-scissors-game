@@ -1,0 +1,20 @@
+
+com.jfixby.imc.rps.ui.game.game.psd.raster.gdx-atlas.atlasdata.0.png
+size: 4096,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+com.jfixby.imc.rps.ui.game.game.psd.raster_0
+  rotate: false
+  xy: 1030, 246
+  size: 1024, 524
+  orig: 1024, 524
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.game.psd.raster_1
+  rotate: false
+  xy: 2, 2
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1

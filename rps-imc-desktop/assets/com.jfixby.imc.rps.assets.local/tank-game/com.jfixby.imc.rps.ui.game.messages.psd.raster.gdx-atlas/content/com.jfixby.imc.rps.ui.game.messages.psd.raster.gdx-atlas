@@ -1,0 +1,118 @@
+
+com.jfixby.imc.rps.ui.game.messages.psd.raster.gdx-atlas.atlasdata.0.png
+size: 4096,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+com.jfixby.imc.rps.ui.game.messages.psd.raster_0
+  rotate: false
+  xy: 3610, 389
+  size: 412, 112
+  orig: 412, 112
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_1
+  rotate: false
+  xy: 2718, 326
+  size: 472, 175
+  orig: 472, 175
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_10
+  rotate: false
+  xy: 2116, 278
+  size: 598, 223
+  orig: 598, 223
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_11
+  rotate: false
+  xy: 2, 194
+  size: 822, 307
+  orig: 822, 307
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_12
+  rotate: false
+  xy: 2718, 217
+  size: 407, 105
+  orig: 407, 105
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_13
+  rotate: false
+  xy: 2718, 217
+  size: 407, 105
+  orig: 407, 105
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_14
+  rotate: false
+  xy: 2718, 217
+  size: 407, 105
+  orig: 407, 105
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_15
+  rotate: false
+  xy: 2718, 217
+  size: 407, 105
+  orig: 407, 105
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_2
+  rotate: false
+  xy: 1514, 266
+  size: 598, 235
+  orig: 598, 235
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_3
+  rotate: false
+  xy: 828, 162
+  size: 682, 339
+  orig: 682, 339
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_4
+  rotate: false
+  xy: 1514, 169
+  size: 532, 93
+  orig: 532, 93
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_5
+  rotate: false
+  xy: 2, 85
+  size: 606, 105
+  orig: 606, 105
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_6
+  rotate: false
+  xy: 2, 2
+  size: 460, 79
+  orig: 460, 79
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_7
+  rotate: false
+  xy: 3610, 326
+  size: 342, 59
+  orig: 342, 59
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_8
+  rotate: false
+  xy: 3194, 237
+  size: 286, 107
+  orig: 286, 107
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.messages.psd.raster_9
+  rotate: false
+  xy: 3194, 348
+  size: 412, 153
+  orig: 412, 153
+  offset: 0, 0
+  index: -1

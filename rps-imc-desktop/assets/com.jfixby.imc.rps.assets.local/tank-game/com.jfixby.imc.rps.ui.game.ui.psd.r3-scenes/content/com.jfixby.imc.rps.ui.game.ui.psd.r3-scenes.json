@@ -1,0 +1,112 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.ui.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.ui.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1"
+          ]
+        },
+        "camera_settings": {
+          "position_x": 512.0,
+          "position_y": 384.0,
+          "origin_relative_x": 0.5,
+          "origin_relative_y": 0.5,
+          "width": 1024.0,
+          "height": 768.0,
+          "mode": "FILL_SCREEN_APERTURE_WRAP"
+        }
+      },
+      "original_width": 1024.0,
+      "original_height": 768.0,
+      "elements": {
+        "le-4": {
+          "uid": "le-4",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "game",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.game.psd"
+          }
+        },
+        "le-2": {
+          "uid": "le-2",
+          "is_hidden": false,
+          "is_sound": true,
+          "debug_mode": false,
+          "name": "bg music",
+          "audio_sample_id": "com.jfixby.imc.rps.sound.music.mp3",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "sound_settings": {
+            "is_looped": true,
+            "autostart": false,
+            "is_audio_event": false,
+            "is_music": true,
+            "volume": 0.25
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "menu",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.menu.psd"
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.ui.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1"
+            ]
+          },
+          "camera_settings": {
+            "position_x": 512.0,
+            "position_y": 384.0,
+            "origin_relative_x": 0.5,
+            "origin_relative_y": 0.5,
+            "width": 1024.0,
+            "height": 768.0,
+            "mode": "FILL_SCREEN_APERTURE_WRAP"
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "rps",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-2",
+              "le-3",
+              "le-4"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

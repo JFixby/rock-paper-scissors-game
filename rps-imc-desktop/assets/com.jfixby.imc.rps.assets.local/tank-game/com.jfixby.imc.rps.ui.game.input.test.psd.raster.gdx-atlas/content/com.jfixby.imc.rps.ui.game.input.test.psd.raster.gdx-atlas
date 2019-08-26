@@ -1,0 +1,27 @@
+
+com.jfixby.imc.rps.ui.game.input.test.psd.raster.gdx-atlas.atlasdata.0.png
+size: 256,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+com.jfixby.imc.rps.ui.game.input.test.psd.raster_0
+  rotate: false
+  xy: 2, 2
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.input.test.psd.raster_1
+  rotate: false
+  xy: 2, 2
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.input.test.psd.raster_2
+  rotate: false
+  xy: 129, 79
+  size: 79, 36
+  orig: 79, 36
+  offset: 0, 0
+  index: -1

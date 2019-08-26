@@ -1,0 +1,104 @@
+
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster.gdx-atlas.atlasdata.0.png
+size: 2048,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_0
+  rotate: false
+  xy: 936, 671
+  size: 309, 333
+  orig: 309, 333
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_2
+  rotate: false
+  xy: 936, 671
+  size: 309, 333
+  orig: 309, 333
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_1
+  rotate: false
+  xy: 2, 2
+  size: 344, 349
+  orig: 344, 349
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_10
+  rotate: false
+  xy: 1562, 700
+  size: 264, 304
+  orig: 265, 304
+  offset: 1, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_11
+  rotate: false
+  xy: 1562, 700
+  size: 264, 304
+  orig: 265, 304
+  offset: 1, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_12
+  rotate: false
+  xy: 1562, 700
+  size: 264, 304
+  orig: 265, 304
+  offset: 1, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_13
+  rotate: false
+  xy: 1562, 700
+  size: 264, 304
+  orig: 265, 304
+  offset: 1, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_3
+  rotate: false
+  xy: 1249, 671
+  size: 309, 333
+  orig: 309, 333
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_4
+  rotate: false
+  xy: 379, 218
+  size: 231, 249
+  orig: 231, 249
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_5
+  rotate: false
+  xy: 350, 29
+  size: 199, 185
+  orig: 199, 185
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_6
+  rotate: false
+  xy: 2, 355
+  size: 373, 649
+  orig: 373, 649
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_7
+  rotate: false
+  xy: 379, 471
+  size: 307, 533
+  orig: 307, 533
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_8
+  rotate: false
+  xy: 690, 585
+  size: 242, 419
+  orig: 242, 419
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.player_actions.psd.raster_9
+  rotate: false
+  xy: 1830, 685
+  size: 185, 319
+  orig: 185, 319
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,22 @@
+{
+  "format": "RedTriplane.Scene2D",
+  "version": "1.0",
+  "timestamp": "1566834487643",
+  "root_file_name": "com.jfixby.imc.rps.ui.game.menu.psd.r3-scenes",
+  "packed_assets": [
+    "com.jfixby.imc.rps.ui.game.menu.psd"
+  ],
+  "package_dependencies": [
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_0",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_1",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_2",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_3",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_6",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_7",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_8",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_11",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_12",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_13",
+    "com.jfixby.imc.rps.ui.game.menu.psd.raster_16"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "format": "libGDX.Texture",
+  "version": "1.0",
+  "timestamp": "1566834473797",
+  "root_file_name": "com.jfixby.fokker.assets.render.black.png",
+  "packed_assets": [
+    "com.jfixby.fokker.assets.render.black"
+  ],
+  "package_dependencies": []
+}

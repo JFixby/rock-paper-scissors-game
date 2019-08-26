@@ -1,0 +1,247 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.input.test.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.input.test.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1"
+          ]
+        }
+      },
+      "original_width": 0.0,
+      "original_height": 0.0,
+      "elements": {
+        "le-2": {
+          "uid": "le-2",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "menu",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-3"
+            ]
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "easy",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-4"
+            ]
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.input.test.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1"
+            ]
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "rps",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-2"
+            ]
+          }
+        },
+        "le-6": {
+          "uid": "le-6",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 23",
+          "raster_id": "com.jfixby.imc.rps.ui.game.input.test.psd.raster_0",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 53.0,
+          "position_y": 41.0,
+          "width": 123.0,
+          "height": 113.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-7": {
+          "uid": "le-7",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 2",
+          "opacity": 1.0,
+          "position_x": -99.0,
+          "position_y": -56.0,
+          "children": {
+            "list": [
+              "le-8",
+              "le-9"
+            ]
+          }
+        },
+        "le-4": {
+          "uid": "le-4",
+          "is_hidden": false,
+          "is_user_input": true,
+          "debug_mode": false,
+          "name": "button",
+          "opacity": 1.0,
+          "position_x": 99.0,
+          "position_y": 56.0,
+          "children": {
+            "list": []
+          },
+          "input_settings": {
+            "is_button": true,
+            "is_switch": false,
+            "is_custom": false,
+            "is_touch_area": false,
+            "touch_area": {
+              "uid": "le-13",
+              "opacity": 1.0,
+              "children": {
+                "list": [
+                  "le-14"
+                ]
+              }
+            },
+            "on_hover": {
+              "uid": "le-7",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 2",
+              "opacity": 1.0,
+              "position_x": -99.0,
+              "position_y": -56.0,
+              "children": {
+                "list": [
+                  "le-8",
+                  "le-9"
+                ]
+              }
+            },
+            "on_released": {
+              "uid": "le-5",
+              "is_sublayer": true,
+              "is_hidden": false,
+              "name": "Group 1",
+              "opacity": 1.0,
+              "position_x": -99.0,
+              "position_y": -56.0,
+              "children": {
+                "list": [
+                  "le-6"
+                ]
+              }
+            }
+          }
+        },
+        "le-5": {
+          "uid": "le-5",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "Group 1",
+          "opacity": 1.0,
+          "position_x": -99.0,
+          "position_y": -56.0,
+          "children": {
+            "list": [
+              "le-6"
+            ]
+          }
+        },
+        "le-10": {
+          "uid": "le-10",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-11": {
+          "uid": "le-11",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-12": {
+          "uid": "le-12",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-8": {
+          "uid": "le-8",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 23 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.input.test.psd.raster_1",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 53.0,
+          "position_y": 28.0,
+          "width": 123.0,
+          "height": 113.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-13": {
+          "uid": "le-13",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-14"
+            ]
+          }
+        },
+        "le-9": {
+          "uid": "le-9",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Easy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.input.test.psd.raster_2",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 68.0,
+          "position_y": 146.0,
+          "width": 79.0,
+          "height": 36.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-14": {
+          "uid": "le-14",
+          "name": "area_touch1",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 229.0,
+          "height": 195.0,
+          "children": {
+            "list": []
+          }
+        }
+      }
+    }
+  ]
+}

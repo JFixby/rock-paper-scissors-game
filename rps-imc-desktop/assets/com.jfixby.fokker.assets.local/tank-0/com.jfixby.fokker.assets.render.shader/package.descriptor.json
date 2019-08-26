@@ -1,0 +1,14 @@
+{
+  "format": "RedTriplane.Shader",
+  "version": "1.0",
+  "timestamp": "1566834473457",
+  "root_file_name": "fokker-shaders.fsh",
+  "packed_assets": [
+    "com.jfixby.fokker.assets.render.shader.diffusion",
+    "com.jfixby.fokker.assets.render.shader.grayscale",
+    "com.jfixby.fokker.assets.render.shader.multiply",
+    "com.jfixby.fokker.assets.render.shader.normal",
+    "com.jfixby.fokker.assets.render.shader.test"
+  ],
+  "package_dependencies": []
+}

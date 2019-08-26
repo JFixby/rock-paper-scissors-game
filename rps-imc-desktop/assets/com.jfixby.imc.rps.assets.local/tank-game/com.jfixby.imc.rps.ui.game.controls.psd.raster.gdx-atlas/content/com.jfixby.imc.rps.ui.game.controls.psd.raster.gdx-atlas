@@ -1,0 +1,118 @@
+
+com.jfixby.imc.rps.ui.game.controls.psd.raster.gdx-atlas.atlasdata.0.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+com.jfixby.imc.rps.ui.game.controls.psd.raster_0
+  rotate: false
+  xy: 524, 337
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_1
+  rotate: false
+  xy: 864, 394
+  size: 125, 115
+  orig: 125, 115
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_14
+  rotate: false
+  xy: 609, 17
+  size: 144, 138
+  orig: 144, 138
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_15
+  rotate: false
+  xy: 757, 3
+  size: 119, 152
+  orig: 121, 152
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_17
+  rotate: false
+  xy: 609, 159
+  size: 165, 174
+  orig: 165, 174
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_18
+  rotate: false
+  xy: 778, 224
+  size: 127, 125
+  orig: 127, 125
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_19
+  rotate: false
+  xy: 281, 259
+  size: 239, 250
+  orig: 239, 250
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_20
+  rotate: false
+  xy: 2, 52
+  size: 183, 180
+  orig: 183, 180
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_2
+  rotate: false
+  xy: 189, 2
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_3
+  rotate: false
+  xy: 370, 20
+  size: 235, 235
+  orig: 235, 235
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_4
+  rotate: false
+  xy: 700, 353
+  size: 160, 156
+  orig: 160, 156
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_5
+  rotate: false
+  xy: 524, 265
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_10
+  rotate: false
+  xy: 189, 55
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_11
+  rotate: false
+  xy: 880, 130
+  size: 93, 90
+  orig: 93, 90
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_12
+  rotate: false
+  xy: 880, 27
+  size: 77, 99
+  orig: 77, 99
+  offset: 0, 0
+  index: -1
+com.jfixby.imc.rps.ui.game.controls.psd.raster_13
+  rotate: false
+  xy: 2, 236
+  size: 275, 273
+  orig: 275, 273
+  offset: 0, 0
+  index: -1

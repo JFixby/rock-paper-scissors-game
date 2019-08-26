@@ -1,0 +1,140 @@
+{
+  "structures": [
+    {
+      "structure_name": "com.jfixby.imc.rps.ui.game.game.psd",
+      "root": {
+        "uid": "le-0",
+        "is_sublayer": true,
+        "is_hidden": false,
+        "name": "com.jfixby.imc.rps.ui.game.game.psd",
+        "opacity": 1.0,
+        "children": {
+          "list": [
+            "le-1",
+            "le-4",
+            "le-5",
+            "le-6",
+            "le-7"
+          ]
+        }
+      },
+      "original_width": 0.0,
+      "original_height": 0.0,
+      "elements": {
+        "le-6": {
+          "uid": "le-6",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "controls",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.controls.psd"
+          }
+        },
+        "le-7": {
+          "uid": "le-7",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "messages",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.messages.psd"
+          }
+        },
+        "le-4": {
+          "uid": "le-4",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "player_actions",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.player_actions.psd"
+          }
+        },
+        "le-5": {
+          "uid": "le-5",
+          "is_hidden": false,
+          "is_child_scene": true,
+          "name": "computer_actions",
+          "opacity": 1.0,
+          "children": {
+            "list": []
+          },
+          "child_scene_settings": {
+            "child_scene_id": "com.jfixby.imc.rps.ui.game.computer_actions.psd"
+          }
+        },
+        "le-2": {
+          "uid": "le-2",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 27",
+          "raster_id": "com.jfixby.imc.rps.ui.game.game.psd.raster_0",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 1024.0,
+          "height": 524.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-3": {
+          "uid": "le-3",
+          "is_raster": true,
+          "is_hidden": false,
+          "name": "Layer 28 copy",
+          "raster_id": "com.jfixby.imc.rps.ui.game.game.psd.raster_1",
+          "blend_mode": "NORMAL",
+          "opacity": 1.0,
+          "position_x": 0.0,
+          "position_y": 0.0,
+          "width": 1024.0,
+          "height": 768.0,
+          "children": {
+            "list": []
+          }
+        },
+        "le-0": {
+          "uid": "le-0",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "com.jfixby.imc.rps.ui.game.game.psd",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-1",
+              "le-4",
+              "le-5",
+              "le-6",
+              "le-7"
+            ]
+          }
+        },
+        "le-1": {
+          "uid": "le-1",
+          "is_sublayer": true,
+          "is_hidden": false,
+          "name": "bg",
+          "opacity": 1.0,
+          "children": {
+            "list": [
+              "le-2",
+              "le-3"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

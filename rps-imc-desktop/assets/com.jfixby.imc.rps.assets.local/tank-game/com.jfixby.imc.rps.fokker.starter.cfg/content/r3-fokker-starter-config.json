@@ -1,0 +1,9 @@
+{
+  "params": {
+    "fullscreen": "true",
+    "width": "1024",
+    "title": "Rock Paper Scissors",
+    "useGL30": "true",
+    "height": "800"
+  }
+}

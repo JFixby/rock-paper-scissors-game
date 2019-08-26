@@ -1,0 +1,28 @@
+{
+  "samples": [
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.paper-01.mp3",
+      "file_name": "ESM_Vibrant_Game__Deep_Hit_Arcade_Cartoon_Quirky_Comedy_Comedic_Kid_Childish_Fun_Bouncy.mp3"
+    },
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.paper-02.mp3",
+      "file_name": "ESM_Puzzle_Game_Poof_Bubble_Big_01_Cartoon_App_Mobile_FX_Magic_Airy_Hit_Object.mp3"
+    },
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.rock-01.mp3",
+      "file_name": "ESM_Builder_Game_Magic_Buff_Fire_3_Fantasy_Airy_Accent_Hit_Stab_Impact_Spell_Sparkle (online-audio-converter.com).mp3"
+    },
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.rock-02.mp3",
+      "file_name": "ESM_Builder_Game_Fireworks_Bomb_Explosion_3_Fire_Bomb_Explosive_War_Battle_Rocket_Mortar_Tank_Cannon.mp3"
+    },
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.scissors-01.mp3",
+      "file_name": "ESM_Sword_Kill_3_Sound_FX_Military_Gore_Blood.mp3"
+    },
+    {
+      "id": "com.jfixby.imc.rps.sound.spells.computer.scissors-02.mp3",
+      "file_name": "ESM_Sword_Shing_Sound_FX_Military_Hit.mp3"
+    }
+  ]
+}
