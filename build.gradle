@@ -13,8 +13,8 @@ buildscript {
 ext {
 
         scarabeiVersion = "5.2.3"
-        redTriplaneVersion = "6918cd090e"
-        gdxVersion = "1.9.6"
+        redTriplaneVersion = "5.0.1"
+        gdxVersion = "1.9.10"
 }
 
 allprojects {
