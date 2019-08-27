@@ -1,6 +1,5 @@
-# rps-imc
 
-You need java to run this game.
+You need Java to run this game: https://www.java.com/en/download/
 
 In windows: click ```game.exe.jar```
    or launch ```run-game.bat```
